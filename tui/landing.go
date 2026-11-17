@@ -107,7 +107,7 @@ func (m Model) viewLanding() string {
 
 	var b strings.Builder
 	b.WriteString(m.styles.Title.Render("jplay") + "  " +
-		m.styles.Hint.Render("Jeopardy archive player · v0.1.0") + "\n\n")
+		m.styles.Hint.Render("Jeopardy archive player · v0.2.0") + "\n\n")
 	b.WriteString(cards + "\n\n")
 
 	if l.entering {

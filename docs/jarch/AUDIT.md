@@ -1,5 +1,9 @@
 # Audit: port to Go and merge into jplay
 
+> Historical record. Entries below describe the original bash/`jq` tool and its
+> files (`bin/jarch`, `lib/jarch/*.jq`), which no longer exist; the current
+> implementation is the Go package `jarch/`.
+
 Date: 2026-11-16
 
 ## Change

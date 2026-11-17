@@ -5,3 +5,23 @@
 .cache/
 .direnv/
 .claude/settings.local.json
+
+# jplay --fetch outputs and cached pages when run from the repo root
+/listseasons.json
+/season-*.json
+/player-*.json
+/[0-9]*.json
+/*.php*
+/jarch-cache/
+
+# local history databases
+*.db
+*.db-wal
+*.db-shm
+
+# editor / OS / tooling
+.claude/
+.DS_Store
+*.test
+*.out
+*.prof
