@@ -1,0 +1,1593 @@
+{
+  "game_id": 6789,
+  "show_number": 1834,
+  "air_date": "1992-07-16",
+  "tape_date": "1992-02-25",
+  "game_comments": "1992 Seniors Tournament final game 1.",
+  "tournament_context": {
+    "tournament": "1992 Seniors Tournament",
+    "round": "final",
+    "game_number": 1
+  },
+  "navigation": {
+    "previous_game": {
+      "game_id": 6788,
+      "href": "showgame.php?game_id=6788"
+    },
+    "next_game": {
+      "game_id": 6790,
+      "href": "showgame.php?game_id=6790"
+    }
+  },
+  "contestants": [
+    {
+      "player_id": 13521,
+      "name": "Carolyn Meek",
+      "description": "a high school English teacher from Houston, Texas",
+      "href": "showplayer.php?player_id=13521"
+    },
+    {
+      "player_id": 13412,
+      "name": "Leonard Schmidt",
+      "description": "an optometrist from Pittsburgh, Pennsylvania",
+      "href": "showplayer.php?player_id=13412"
+    },
+    {
+      "player_id": 13525,
+      "name": "Hansford Epes",
+      "description": "a German and humanities professor from Davidson, North Carolina",
+      "href": "showplayer.php?player_id=13525"
+    }
+  ],
+  "rounds": {
+    "jeopardy": {
+      "categories": [
+        {
+          "column": 1,
+          "name": "BODIES OF WATER",
+          "comments": null
+        },
+        {
+          "column": 2,
+          "name": "OLD RADIO",
+          "comments": null
+        },
+        {
+          "column": 3,
+          "name": "COLORS",
+          "comments": null
+        },
+        {
+          "column": 4,
+          "name": "FAMOUS NAMES",
+          "comments": null
+        },
+        {
+          "column": 5,
+          "name": "MISS MANNERS' MANNERS",
+          "comments": null
+        },
+        {
+          "column": 6,
+          "name": "ABBREVIATIONS",
+          "comments": null
+        }
+      ],
+      "clues": [
+        {
+          "clue_id": 394874,
+          "board_position": {
+            "column": 1,
+            "row": 1
+          },
+          "play_order": 12,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Named for the Atlas Mountains, it's the second-largest body of water in the world",
+          "correct_response": "the Atlantic Ocean",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394868,
+          "board_position": {
+            "column": 2,
+            "row": 1
+          },
+          "play_order": 6,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Sgt. Friday worked for the L.A.P.D. & Sgt. Preston worked for them, the N.W.M.P.",
+          "correct_response": "the North-West Mounted Police",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394879,
+          "board_position": {
+            "column": 3,
+            "row": 1
+          },
+          "play_order": 17,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This animal that forms atolls doesn't have to be the color of the same name",
+          "correct_response": "coral",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394863,
+          "board_position": {
+            "column": 4,
+            "row": 1
+          },
+          "play_order": 1,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A Texas city, county & national forest are named for this frontier hero who died at the Alamo",
+          "correct_response": "Davy Crockett",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394873,
+          "board_position": {
+            "column": 5,
+            "row": 1
+          },
+          "play_order": 9,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Miss Manners says you should eat every egg given to you on this holiday & not pass them on to someone else",
+          "correct_response": "Easter",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394888,
+          "board_position": {
+            "column": 6,
+            "row": 1
+          },
+          "play_order": 22,
+          "value": 100,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Whether he's admirable or not, a mayor gets this title, abbreviated Hon., in front of his name",
+          "correct_response": "Honorable",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394875,
+          "board_position": {
+            "column": 1,
+            "row": 2
+          },
+          "play_order": 13,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Situated between Quebec & Ontario, James Bay is the southern extension of this bay",
+          "correct_response": "Hudson Bay",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394869,
+          "board_position": {
+            "column": 2,
+            "row": 2
+          },
+          "play_order": 7,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"Mr. District Attorney\" was sponsored by Ipana, this type of product",
+          "correct_response": "toothpaste",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394880,
+          "board_position": {
+            "column": 3,
+            "row": 2
+          },
+          "play_order": 18,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In heraldry, this color is known as purpure",
+          "correct_response": "purple",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394864,
+          "board_position": {
+            "column": 4,
+            "row": 2
+          },
+          "play_order": 2,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Civil War soldiers were among the first to benefit from his invention of condensed milk",
+          "correct_response": "(Gail) Borden",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394884,
+          "board_position": {
+            "column": 5,
+            "row": 2
+          },
+          "play_order": 27,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Miss Manners prefers to eat this \"vegetarian\" course after her entree, as many Europeans do",
+          "correct_response": "salad",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394889,
+          "board_position": {
+            "column": 6,
+            "row": 2
+          },
+          "play_order": 23,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "You don't have to have ESP to know that this adverb is abbreviated esp.",
+          "correct_response": "especially",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "incorrect",
+              "given_response": "What is extrasensory perception?"
+            },
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394876,
+          "board_position": {
+            "column": 1,
+            "row": 3
+          },
+          "play_order": 14,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This sea's greatest depths, about 13,500 feet, occur at the western end of the Aleutian Islands",
+          "correct_response": "the Bering Sea",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "incorrect",
+              "given_response": "Uh, what is the Pacific Ocean?"
+            },
+            {
+              "contestant": "Carolyn",
+              "result": "incorrect",
+              "given_response": "What is the Aleutian?"
+            },
+            {
+              "contestant": "Leonard",
+              "result": "incorrect",
+              "given_response": "What is the Indian Ocean?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394870,
+          "board_position": {
+            "column": 2,
+            "row": 3
+          },
+          "play_order": 8,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Radio \"feuds\" included Jack Benny & Fred Allen's & W.C. Fields' with this wooden star",
+          "correct_response": "Charlie McCarthy",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394881,
+          "board_position": {
+            "column": 3,
+            "row": 3
+          },
+          "play_order": 19,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Dove & slate are 2 shades of this",
+          "correct_response": "gray",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394865,
+          "board_position": {
+            "column": 4,
+            "row": 3
+          },
+          "play_order": 3,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Only 200 sets of the 1st edition of his \"Birds of America\" were printed as each had 435 hand-colored pictures",
+          "correct_response": "(John James) Audubon",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394885,
+          "board_position": {
+            "column": 5,
+            "row": 3
+          },
+          "play_order": 28,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "It is \"a firm tenet\" of Miss Manners' life that these necklaces must have odd numbers of strands",
+          "correct_response": "pearls",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394890,
+          "board_position": {
+            "column": 6,
+            "row": 3
+          },
+          "play_order": 24,
+          "value": 300,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Visc. is an abbreviation of this word for a nobleman who ranks above a baron",
+          "correct_response": "viscount",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394877,
+          "board_position": {
+            "column": 1,
+            "row": 4
+          },
+          "play_order": 15,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This sea separates the Scandinavian Peninsula from the rest of continental Europe",
+          "correct_response": "the Baltic Sea",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394871,
+          "board_position": {
+            "column": 2,
+            "row": 4
+          },
+          "play_order": 10,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "1 of the 2 Arts who hosted \"People Are Funny\"",
+          "correct_response": "(1 of) Art Linkletter (Art Baker)",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394882,
+          "board_position": {
+            "column": 3,
+            "row": 4
+          },
+          "play_order": 20,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "It's the color of the outer border around Time magazine's current covers",
+          "correct_response": "red",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394866,
+          "board_position": {
+            "column": 4,
+            "row": 4
+          },
+          "play_order": 4,
+          "value": 400,
+          "is_daily_double": true,
+          "wager": 500,
+          "text": "On Dec. 4, 1991, after 2,450 days, he became the last American hostage released by Lebanese captors",
+          "correct_response": "Terry Anderson",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394886,
+          "board_position": {
+            "column": 5,
+            "row": 4
+          },
+          "play_order": 29,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Miss Manners thinks these look better in the refrigerator than they do on the chest or the wrist",
+          "correct_response": "corsage",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "incorrect",
+              "given_response": "What are diamonds?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394891,
+          "board_position": {
+            "column": 6,
+            "row": 4
+          },
+          "play_order": 25,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This musical term can be abbreviated ff or fff",
+          "correct_response": "fortissimo",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394878,
+          "board_position": {
+            "column": 1,
+            "row": 5
+          },
+          "play_order": 16,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "According to tradition, the Incas originated on an island in this lake, the world's highest navigable one",
+          "correct_response": "Lake Titicaca",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394872,
+          "board_position": {
+            "column": 2,
+            "row": 5
+          },
+          "play_order": 11,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Among the regular characters on his show were Honey Chile, Vera Vague & Prof. Colonna",
+          "correct_response": "Bob Hope",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct",
+              "given_response": "What's The [*] Show?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394883,
+          "board_position": {
+            "column": 3,
+            "row": 5
+          },
+          "play_order": 21,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The Teutonic Knights of the Crusades wore crosses of this color on their cloaks",
+          "correct_response": "black",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "incorrect",
+              "given_response": "What's red?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394867,
+          "board_position": {
+            "column": 4,
+            "row": 5
+          },
+          "play_order": 5,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This man invented the carpet sweeper in 1876 to clean up dust in his China shop",
+          "correct_response": "Bissell",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394887,
+          "board_position": {
+            "column": 5,
+            "row": 5
+          },
+          "play_order": 30,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "When asked if it's proper to do this during social events, Miss Manners said, \"Madame Defarge did\"",
+          "correct_response": "knit",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394892,
+          "board_position": {
+            "column": 6,
+            "row": 5
+          },
+          "play_order": 26,
+          "value": 500,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The official U.S. Postal service abbreviation for this territory is GU",
+          "correct_response": "Guam",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "after_clue_14": [
+          {
+            "contestant": "Hansford",
+            "score": 600
+          },
+          {
+            "contestant": "Leonard",
+            "score": 2000
+          },
+          {
+            "contestant": "Carolyn",
+            "score": 0
+          }
+        ],
+        "end_of_round": [
+          {
+            "contestant": "Hansford",
+            "score": 2200
+          },
+          {
+            "contestant": "Leonard",
+            "score": 4100
+          },
+          {
+            "contestant": "Carolyn",
+            "score": -400
+          }
+        ]
+      }
+    },
+    "double_jeopardy": {
+      "categories": [
+        {
+          "column": 1,
+          "name": "METALS",
+          "comments": null
+        },
+        {
+          "column": 2,
+          "name": "POETS & POETRY",
+          "comments": null
+        },
+        {
+          "column": 3,
+          "name": "WORLD HISTORY",
+          "comments": null
+        },
+        {
+          "column": 4,
+          "name": "TRAVEL & TOURISM",
+          "comments": null
+        },
+        {
+          "column": 5,
+          "name": "U.S. PRESIDENTS",
+          "comments": null
+        },
+        {
+          "column": 6,
+          "name": "MAKING SCENTS",
+          "comments": null
+        }
+      ],
+      "clues": [
+        {
+          "clue_id": 394909,
+          "board_position": {
+            "column": 1,
+            "row": 1
+          },
+          "play_order": 17,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This heavy metal used in storage batteries is extracted from galena, a gray metallic ore",
+          "correct_response": "lead",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394893,
+          "board_position": {
+            "column": 2,
+            "row": 1
+          },
+          "play_order": 1,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The only well-known poem by Ernest Lawrence Thayer, it describes a baseball defeat",
+          "correct_response": "\"Casey at the Bat\"",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394901,
+          "board_position": {
+            "column": 3,
+            "row": 1
+          },
+          "play_order": 11,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In the 1940s politician Daniel Francois Malan instituted this policy of \"separateness\" in South Africa",
+          "correct_response": "apartheid",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394914,
+          "board_position": {
+            "column": 4,
+            "row": 1
+          },
+          "play_order": 18,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This rock singer's birthplace in Tupelo, Miss. is preserved in a small park named for him",
+          "correct_response": "Elvis Presley",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394898,
+          "board_position": {
+            "column": 5,
+            "row": 1
+          },
+          "play_order": 3,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In March 1968, in the midst of the Vietnam War, he announced his decision not to seek reelection",
+          "correct_response": "LBJ",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394908,
+          "board_position": {
+            "column": 6,
+            "row": 1
+          },
+          "play_order": 12,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This perfume was such a phenomenon it became the financial basis of Chanel's fashion empire",
+          "correct_response": "Chanel No. 5",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394910,
+          "board_position": {
+            "column": 1,
+            "row": 2
+          },
+          "play_order": 20,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Also known as wolfram, this metal was first commercially used as lamp filament material",
+          "correct_response": "tungsten",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394894,
+          "board_position": {
+            "column": 2,
+            "row": 2
+          },
+          "play_order": 2,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "John Donne's \"Song\" begins, \"Go and catch a falling\" one of these",
+          "correct_response": "a star",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394902,
+          "board_position": {
+            "column": 3,
+            "row": 2
+          },
+          "play_order": 13,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This symbol of the Reign of Terror was originally called the Louisette in its inventor's honor",
+          "correct_response": "the guillotine",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394915,
+          "board_position": {
+            "column": 4,
+            "row": 2
+          },
+          "play_order": 19,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To visit Daniel Boone's burial site, travel to this state capital",
+          "correct_response": "Frankfort (Kentucky)",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394899,
+          "board_position": {
+            "column": 5,
+            "row": 2
+          },
+          "play_order": 4,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "While an Illinois lawyer, he patented a boat-lifting device",
+          "correct_response": "Lincoln",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394919,
+          "board_position": {
+            "column": 6,
+            "row": 2
+          },
+          "play_order": 27,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"Attar of\" these flowers is often made from the Damask variety",
+          "correct_response": "roses",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394911,
+          "board_position": {
+            "column": 1,
+            "row": 3
+          },
+          "play_order": 21,
+          "value": 600,
+          "is_daily_double": true,
+          "wager": 2000,
+          "text": "Except for iron & steel, the world uses more of this metal than any other",
+          "correct_response": "aluminum",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "incorrect",
+              "given_response": "What is carbon?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394895,
+          "board_position": {
+            "column": 2,
+            "row": 3
+          },
+          "play_order": 6,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Robert Herrick wrote a \"Prayer to\" this poet in which he called him \"Saint Ben\"",
+          "correct_response": "Ben Jonson",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394903,
+          "board_position": {
+            "column": 3,
+            "row": 3
+          },
+          "play_order": 14,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Maximilian I, Duke of Bavaria, played a major role on the Catholic side of this 3-decade war",
+          "correct_response": "the Thirty Years' War",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394916,
+          "board_position": {
+            "column": 4,
+            "row": 3
+          },
+          "play_order": 24,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A newly-issued U.S. adult passport is valid for this number of years",
+          "correct_response": "10",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394900,
+          "board_position": {
+            "column": 5,
+            "row": 3
+          },
+          "play_order": 5,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "For six months in 1939, he served as secretary to his father, then U.S. Ambassador to Great Britain",
+          "correct_response": "John F. Kennedy",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394920,
+          "board_position": {
+            "column": 6,
+            "row": 3
+          },
+          "play_order": 28,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The word perfume comes from the Latin \"per fumum\", meaning \"through\" this",
+          "correct_response": "smoke",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "incorrect",
+              "given_response": "What is, um, the nose?"
+            },
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394912,
+          "board_position": {
+            "column": 1,
+            "row": 4
+          },
+          "play_order": 22,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The name of this metal widely used to plate other metals is from a Greek word meaning \"color\"",
+          "correct_response": "chromium",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394896,
+          "board_position": {
+            "column": 2,
+            "row": 4
+          },
+          "play_order": 7,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Scotsman who wrote about his wife, \"There's not a bonie bird that sings, but minds me o' my Jean\"",
+          "correct_response": "(Robert) Burns",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394904,
+          "board_position": {
+            "column": 3,
+            "row": 4
+          },
+          "play_order": 15,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "He was imprisoned 9 times before he became prime minister of India in 1947",
+          "correct_response": "(Jawaharlal) Nehru",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "incorrect",
+              "given_response": "Who is Gandhi?"
+            },
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394917,
+          "board_position": {
+            "column": 4,
+            "row": 4
+          },
+          "play_order": 25,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The only imported operating Dutch windmill in the U.S. is located in this Michigan city",
+          "correct_response": "Holland",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394906,
+          "board_position": {
+            "column": 5,
+            "row": 4
+          },
+          "play_order": 9,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "He was nicknamed \"Old Buck\" & \"The Bachelor President\"",
+          "correct_response": "Buchanan",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394921,
+          "board_position": {
+            "column": 6,
+            "row": 4
+          },
+          "play_order": 29,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"Essential\" ones of these obtained from plants such as jasmine are the foundation for perfumes",
+          "correct_response": "oils",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394913,
+          "board_position": {
+            "column": 1,
+            "row": 5
+          },
+          "play_order": 23,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This light, strong metal is used to whiten leather & to make jet engines",
+          "correct_response": "titanium",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "incorrect",
+              "given_response": "What is bismuth?"
+            },
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394897,
+          "board_position": {
+            "column": 2,
+            "row": 5
+          },
+          "play_order": 8,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Rainer Maria Rilke wrote a cycle of sonnets about this musician who journeyed to Hades",
+          "correct_response": "Orpheus",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394905,
+          "board_position": {
+            "column": 3,
+            "row": 5
+          },
+          "play_order": 16,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "She became Great Britain's queen 349 years after the death of Good Queen Bess",
+          "correct_response": "Elizabeth II",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Carolyn",
+              "result": "incorrect",
+              "given_response": "Who is Victoria?"
+            },
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394918,
+          "board_position": {
+            "column": 4,
+            "row": 5
+          },
+          "play_order": 26,
+          "value": 1000,
+          "is_daily_double": true,
+          "wager": 1000,
+          "text": "This building complex in New Castile, Spain houses the tombs of Spanish monarchs since Charles V",
+          "correct_response": "El Escorial",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "incorrect",
+              "given_response": "What is the Alhambra?"
+            }
+          ]
+        },
+        {
+          "clue_id": 394907,
+          "board_position": {
+            "column": 5,
+            "row": 5
+          },
+          "play_order": 10,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The Gadsden Purchase of 1853 was during this New Hampshirite's term in office",
+          "correct_response": "Franklin Pierce",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Leonard",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 394922,
+          "board_position": {
+            "column": 6,
+            "row": 5
+          },
+          "play_order": 30,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "It's by far the largest animal from which we get a common perfume",
+          "correct_response": "a (sperm) whale",
+          "host_comment": "Yes, ambergris.",
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Hansford",
+              "result": "correct"
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "end_of_round": [
+          {
+            "contestant": "Hansford",
+            "score": 8200
+          },
+          {
+            "contestant": "Leonard",
+            "score": 6700
+          },
+          {
+            "contestant": "Carolyn",
+            "score": 1000
+          }
+        ]
+      }
+    },
+    "final_jeopardy": {
+      "category": "FILMS OF THE '50s",
+      "category_comments": null,
+      "text": "One of the 1st lines in this William Holden film is \"The poor dope. He always wanted a pool.\"",
+      "correct_response": "Sunset Boulevard",
+      "host_comment": "I am big! It's the pictures that got small.",
+      "responses": [
+        {
+          "contestant": "Carolyn",
+          "result": "correct",
+          "given_response": "What is Sunset Blvd.?",
+          "wager": 1000
+        },
+        {
+          "contestant": "Leonard",
+          "result": "correct",
+          "given_response": "What is Sunset Blvd?",
+          "wager": 4500
+        },
+        {
+          "contestant": "Hansford",
+          "result": "correct",
+          "given_response": "What is Sunset Blvd.?",
+          "wager": 2000
+        }
+      ],
+      "scores": {
+        "final": [
+          {
+            "contestant": "Hansford",
+            "score": 10200
+          },
+          {
+            "contestant": "Leonard",
+            "score": 11200
+          },
+          {
+            "contestant": "Carolyn",
+            "score": 2000
+          }
+        ]
+      }
+    }
+  },
+  "coryat_scores": [
+    {
+      "contestant": "Hansford",
+      "score": 8200,
+      "correct": 22,
+      "incorrect": 3,
+      "daily_doubles_correct": null,
+      "daily_doubles_incorrect": null
+    },
+    {
+      "contestant": "Leonard",
+      "score": 9600,
+      "correct": 27,
+      "incorrect": 5,
+      "daily_doubles_correct": 1,
+      "daily_doubles_incorrect": 2
+    },
+    {
+      "contestant": "Carolyn",
+      "score": 1000,
+      "correct": 6,
+      "incorrect": 4,
+      "daily_doubles_correct": null,
+      "daily_doubles_incorrect": null
+    }
+  ],
+  "combined_coryat": 18800
+}

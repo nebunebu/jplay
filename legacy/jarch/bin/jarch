@@ -1,0 +1,149 @@
+#!/usr/bin/env bash
+# jarch — fetch, cache, and parse J! Archive pages into JSON.
+#
+# Pipeline per page: fetch (curl) -> cache (verbatim .html on disk)
+#                    -> parse (pup + jq) -> output (.json)
+set -euo pipefail
+
+BASE_URL="https://j-archive.com/"
+USER_AGENT="jarch/0.1 (personal, low-volume archival tool; not a crawler)"
+FETCH_DELAY="${JARCH_FETCH_DELAY:-2}"
+# Cache goes to the XDG cache dir; JSON outputs go to the current directory.
+# JARCH_DIR overrides both (used by spec fixtures: JARCH_DIR=spec ...).
+if [[ -n "${JARCH_DIR:-}" ]]; then
+  CACHE_DIR="$JARCH_DIR"
+  OUT_DIR="$JARCH_DIR"
+else
+  CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/jarch"
+  OUT_DIR="."
+fi
+
+if [[ -z "${JARCH_LIB:-}" ]]; then
+  JARCH_LIB="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")/../lib/jarch" && pwd)"
+fi
+
+usage() {
+  cat <<'EOF'
+usage: jarch [flags] <subcommand> [<id>]
+
+subcommands:
+  seasons              parse listseasons.php               -> listseasons.json
+  season <season_id>   parse showseason.php?season=<id>    -> season-<id>.json
+  game <game_id>       parse showgame.php?game_id=<id>     -> <id>.json
+  player <player_id>   parse showplayer.php?player_id=<id> -> player-<id>.json
+
+flags:
+  --refresh     ignore any cached HTML and re-fetch from the network
+  --out <path>  write JSON to <path> instead of the default
+  --stdout      write JSON to stdout only (no file)
+  -h, --help    show this help
+
+environment:
+  JARCH_DIR          override cache AND output directory (default: cache in
+                     $XDG_CACHE_HOME/jarch, output in current directory)
+  XDG_CACHE_HOME     base cache directory (default: ~/.cache)
+  JARCH_FETCH_DELAY  seconds to sleep before a network fetch (default: 2)
+EOF
+}
+
+die() { echo "jarch: $*" >&2; exit 1; }
+
+refresh=0
+stdout_only=0
+out_path=""
+args=()
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --refresh) refresh=1 ;;
+    --stdout) stdout_only=1 ;;
+    --out) [[ $# -ge 2 ]] || die "--out requires a path"; out_path="$2"; shift ;;
+    -h|--help) usage; exit 0 ;;
+    --*) die "unknown flag: $1" ;;
+    *) args+=("$1") ;;
+  esac
+  shift
+done
+
+[[ ${#args[@]} -ge 1 ]] || { usage >&2; exit 1; }
+subcmd="${args[0]}"
+id="${args[1]:-}"
+
+case "$subcmd" in
+  seasons)
+    [[ -z "$id" ]] || die "seasons takes no argument"
+    page="listseasons.php"
+    default_out="listseasons.json"
+    ;;
+  season)
+    [[ -n "$id" ]] || die "season requires a <season_id>"
+    page="showseason.php?season=${id}"
+    default_out="season-${id}.json"
+    ;;
+  game)
+    [[ "$id" =~ ^[0-9]+$ ]] || die "game requires an integer <game_id>"
+    page="showgame.php?game_id=${id}"
+    default_out="${id}.json"
+    ;;
+  player)
+    [[ "$id" =~ ^[0-9]+$ ]] || die "player requires an integer <player_id>"
+    page="showplayer.php?player_id=${id}"
+    default_out="player-${id}.json"
+    ;;
+  *) die "unknown subcommand: $subcmd" ;;
+esac
+
+cache="${CACHE_DIR}/${page}"
+
+# The seasons list and a season's episode list are *mutable* index pages: new
+# episodes (and eventually new seasons) appear on them as the show airs. Game and
+# player pages are immutable archival records, safe to cache forever. So the index
+# pages get a staleness TTL — when the cached copy is older than JARCH_INDEX_TTL
+# seconds, refetch it even on a cache hit. Set JARCH_INDEX_TTL=0 to cache forever
+# (old behaviour); the TTL is also skipped when JARCH_DIR is set, so fixture
+# reproduction stays fully offline.
+INDEX_TTL="${JARCH_INDEX_TTL:-43200}" # 12h default
+stale=0
+if [[ $refresh -eq 0 && -s "$cache" && -z "${JARCH_DIR:-}" && "$INDEX_TTL" -gt 0 ]]; then
+  case "$subcmd" in
+    seasons|season)
+      age=$(( $(date +%s) - $(stat -c %Y "$cache") ))
+      (( age >= INDEX_TTL )) && stale=1
+      ;;
+  esac
+fi
+
+# Cache-first: fetch only when missing, stale, or a refresh is forced.
+if [[ $refresh -eq 1 || $stale -eq 1 || ! -s "$cache" ]]; then
+  mkdir -p "$CACHE_DIR"
+  sleep "$FETCH_DELAY"
+  tmp="$(mktemp "${cache}.XXXXXX")"
+  trap 'rm -f "$tmp"' EXIT
+  curl -fsS -A "$USER_AGENT" -o "$tmp" "${BASE_URL}${page}" \
+    || die "fetch failed: ${BASE_URL}${page}"
+  mv "$tmp" "$cache"
+  trap - EXIT
+fi
+
+case "$subcmd" in
+  seasons)
+    json="$(jq -n -L "$JARCH_LIB" --rawfile html "$cache" -f "$JARCH_LIB/listseasons.jq")"
+    ;;
+  season)
+    json="$(jq -n -L "$JARCH_LIB" --rawfile html "$cache" -f "$JARCH_LIB/season.jq")"
+    ;;
+  game)
+    json="$(pup 'div#content json{}' < "$cache" \
+      | jq -L "$JARCH_LIB" --rawfile html "$cache" --arg game_id "$id" \
+           -f "$JARCH_LIB/game.jq")"
+    ;;
+  player)
+    json="$(pup 'div#content json{}' < "$cache" \
+      | jq -L "$JARCH_LIB" --rawfile html "$cache" --arg player_id "$id" \
+           -f "$JARCH_LIB/player.jq")"
+    ;;
+esac
+
+if [[ $stdout_only -eq 0 ]]; then
+  printf '%s\n' "$json" > "${out_path:-${OUT_DIR}/${default_out}}"
+fi
+printf '%s\n' "$json"

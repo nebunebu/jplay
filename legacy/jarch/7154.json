@@ -1,0 +1,1556 @@
+{
+  "game_id": 7154,
+  "show_number": 8478,
+  "air_date": "2021-09-29",
+  "tape_date": "2021-08-25",
+  "game_comments": "Matt Amodio game 31.",
+  "tournament_context": null,
+  "navigation": {
+    "previous_game": {
+      "game_id": 7153,
+      "href": "showgame.php?game_id=7153"
+    },
+    "next_game": {
+      "game_id": 7155,
+      "href": "showgame.php?game_id=7155"
+    }
+  },
+  "contestants": [
+    {
+      "player_id": 14234,
+      "name": "Adriana Granados",
+      "description": "a student advisor from Fontana, California",
+      "href": "showplayer.php?player_id=14234"
+    },
+    {
+      "player_id": 14235,
+      "name": "Daniel Pecoraro",
+      "description": "a nonprofit manager and tour guide from Brooklyn, New York",
+      "href": "showplayer.php?player_id=14235"
+    },
+    {
+      "player_id": 14127,
+      "name": "Matt Amodio",
+      "description": "a Ph.D. student from New Haven, Connecticut (whose 30-day cash winnings total $1,107,401)",
+      "href": "showplayer.php?player_id=14127"
+    }
+  ],
+  "rounds": {
+    "jeopardy": {
+      "categories": [
+        {
+          "column": 1,
+          "name": "I CAN NAME THAT NO. 1 '80s HIT",
+          "comments": "(Mayim: As recited by our own Johnny Gilbert.)"
+        },
+        {
+          "column": 2,
+          "name": "THE NON-COASTAL U.S.",
+          "comments": null
+        },
+        {
+          "column": 3,
+          "name": "WEBCAMS",
+          "comments": null
+        },
+        {
+          "column": 4,
+          "name": "3-LETTER VERBS",
+          "comments": null
+        },
+        {
+          "column": 5,
+          "name": "MONKEY",
+          "comments": null
+        },
+        {
+          "column": 6,
+          "name": "BUSINESS",
+          "comments": null
+        }
+      ],
+      "clues": [
+        {
+          "clue_id": 416980,
+          "board_position": {
+            "column": 1,
+            "row": 1
+          },
+          "play_order": 28,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"Here's a little song I wrote, you might want to sing it note for note\"",
+          "correct_response": "\"Don't Worry, Be Happy\"",
+          "host_comment": "And a special thank you to Johnny; no one can say '80s lyrics [Cut to Johnny] like you can.",
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Adriana",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416981,
+          "board_position": {
+            "column": 2,
+            "row": 1
+          },
+          "play_order": 27,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Things to do in this city include seeing its mint that opened in 1906 & taking in a game at Coors Field",
+          "correct_response": "Denver",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Adriana",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416982,
+          "board_position": {
+            "column": 3,
+            "row": 1
+          },
+          "play_order": 29,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Via a webcam in the north of Scotland, keep an eye out for this legendary creature in its watery abode",
+          "correct_response": "the Loch Ness Monster",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416983,
+          "board_position": {
+            "column": 4,
+            "row": 1
+          },
+          "play_order": 26,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To solemnly pledge to undertake an action",
+          "correct_response": "vow",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416984,
+          "board_position": {
+            "column": 5,
+            "row": 1
+          },
+          "play_order": 30,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Unknown to science until 2007, the Lesula monkey was discovered in this Democratic Republic of Central Africa",
+          "correct_response": "DRC (Democratic Republic of the Congo)",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416973,
+          "board_position": {
+            "column": 6,
+            "row": 1
+          },
+          "play_order": 21,
+          "value": 200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "There are 3 of the same vowel in this term for the exclusive control of a product or service by one business or group",
+          "correct_response": "a monopoly",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Adriana",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416976,
+          "board_position": {
+            "column": 1,
+            "row": 2
+          },
+          "play_order": 22,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"It's the thrill of the fight, rising up to the challenge of our rival\"",
+          "correct_response": "\"Eye Of The Tiger\"",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416977,
+          "board_position": {
+            "column": 2,
+            "row": 2
+          },
+          "play_order": 23,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This state is the nation's least populous at just under 600,000",
+          "correct_response": "Wyoming",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416978,
+          "board_position": {
+            "column": 3,
+            "row": 2
+          },
+          "play_order": 25,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In 2017 more than 14 million people tuned in live on the day that April, one of these creatures, gave birth",
+          "correct_response": "giraffe",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416972,
+          "board_position": {
+            "column": 4,
+            "row": 2
+          },
+          "play_order": 17,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To deplete something's energy or weaken it gradually",
+          "correct_response": "sap",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416979,
+          "board_position": {
+            "column": 5,
+            "row": 2
+          },
+          "play_order": 24,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The bellow of this Western Hemisphere dweller is described as deafening, so we're seeing the monkey, not hearing it",
+          "correct_response": "howler",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416974,
+          "board_position": {
+            "column": 6,
+            "row": 2
+          },
+          "play_order": 20,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Under this \"liability\", a shareholder cannot lose more money than they've invested in a company",
+          "correct_response": "limited",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416970,
+          "board_position": {
+            "column": 1,
+            "row": 3
+          },
+          "play_order": 18,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"You know I feel so dirty when they start talking cute, I wanna tell her that I love her but the point is probably moot\"",
+          "correct_response": "\"Jessie's Girl\"",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416960,
+          "board_position": {
+            "column": 2,
+            "row": 3
+          },
+          "play_order": 8,
+          "value": 600,
+          "is_daily_double": true,
+          "wager": 3800,
+          "text": "Oh, for an ocean breeze! In August 2020 the average high in this southwestern capital city was 111 degrees Fahrenheit",
+          "correct_response": "Phoenix",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416971,
+          "board_position": {
+            "column": 3,
+            "row": 3
+          },
+          "play_order": 16,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In 2019 a webcam captured the fire that collapsed this 850-year-old cathedral's spire & roof",
+          "correct_response": "Notre Dame",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416966,
+          "board_position": {
+            "column": 4,
+            "row": 3
+          },
+          "play_order": 14,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To clear a pool table by hitting all the balls in the pockets in a row",
+          "correct_response": "run",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416968,
+          "board_position": {
+            "column": 5,
+            "row": 3
+          },
+          "play_order": 15,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Like a group of Girl or Boy Scouts, a group of monkeys is known as this & can have as many as 800 members",
+          "correct_response": "troop",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416975,
+          "board_position": {
+            "column": 6,
+            "row": 3
+          },
+          "play_order": 19,
+          "value": 600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This type of account book listing debts & credits dates back at least to the Renaissance as shown here",
+          "correct_response": "a ledger",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416963,
+          "board_position": {
+            "column": 1,
+            "row": 4
+          },
+          "play_order": 13,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"There's a choice we're making, we're saving our own lives, it's true we'll make a better day, just you and me\"",
+          "correct_response": "\"We Are The World\"",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "incorrect",
+              "given_response": "What is \"Did you ever know that you're my hero\"?"
+            }
+          ]
+        },
+        {
+          "clue_id": 416956,
+          "board_position": {
+            "column": 2,
+            "row": 4
+          },
+          "play_order": 2,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This large national memorial that's about 25 miles southwest of Rapid City, South Dakota was named for a New York lawyer",
+          "correct_response": "Mount Rushmore",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416965,
+          "board_position": {
+            "column": 3,
+            "row": 4
+          },
+          "play_order": 11,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In 2021 this \"hot spot\" on Sicily put on quite a show for viewers of its webcam",
+          "correct_response": "Mount Etna",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416967,
+          "board_position": {
+            "column": 4,
+            "row": 4
+          },
+          "play_order": 9,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To tell an insignificant or childish lie",
+          "correct_response": "fib",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416969,
+          "board_position": {
+            "column": 5,
+            "row": 4
+          },
+          "play_order": 12,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Spider monkeys are susceptible to this Anopheles mosquito-borne disease & are used in lab studies to combat it",
+          "correct_response": "malaria",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416959,
+          "board_position": {
+            "column": 6,
+            "row": 4
+          },
+          "play_order": 5,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "From the Latin for \"untouchable\", it's a term for assets such as patents, logos or customer love",
+          "correct_response": "intangible",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "incorrect",
+              "given_response": "What's goodwill?"
+            }
+          ]
+        },
+        {
+          "clue_id": 416964,
+          "board_position": {
+            "column": 1,
+            "row": 5
+          },
+          "play_order": 10,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "\"Did you ever know that you're my hero? & everything I would like to be, I can fly higher than an eagle, for you are the... \"",
+          "correct_response": "\"Wind Beneath My Wings\"",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416955,
+          "board_position": {
+            "column": 2,
+            "row": 5
+          },
+          "play_order": 1,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Not to be confused with the Boston area's Mass Ave, Mass Street is a center of University of Kansas life in this city",
+          "correct_response": "Lawrence",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416961,
+          "board_position": {
+            "column": 3,
+            "row": 5
+          },
+          "play_order": 6,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Look out for sharks on an underwater cam 34 miles off the coast of this state's Cape Fear",
+          "correct_response": "North Carolina",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416957,
+          "board_position": {
+            "column": 4,
+            "row": 5
+          },
+          "play_order": 3,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "To add additional unjustified expenses to an account",
+          "correct_response": "pad",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416958,
+          "board_position": {
+            "column": 5,
+            "row": 5
+          },
+          "play_order": 4,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "This shy & reclusive monkey seen here lives in equatorial rain forest & is known for its colorful face",
+          "correct_response": "a mandrill",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416962,
+          "board_position": {
+            "column": 6,
+            "row": 5
+          },
+          "play_order": 7,
+          "value": 1000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The 2017 tax bill changed things for these businesses so-named because their revenue goes right to the tax returns of owners",
+          "correct_response": "pass-through",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        }
+      ],
+      "scores": {
+        "after_clue_15": [
+          {
+            "contestant": "Matt",
+            "score": 10400
+          },
+          {
+            "contestant": "Daniel",
+            "score": 2200
+          },
+          {
+            "contestant": "Adriana",
+            "score": 0
+          }
+        ],
+        "end_of_round": [
+          {
+            "contestant": "Matt",
+            "score": 12400
+          },
+          {
+            "contestant": "Daniel",
+            "score": 5000
+          },
+          {
+            "contestant": "Adriana",
+            "score": 600
+          }
+        ]
+      }
+    },
+    "double_jeopardy": {
+      "categories": [
+        {
+          "column": 1,
+          "name": "SEE, IT STARTS WITH \"CL\"",
+          "comments": null
+        },
+        {
+          "column": 2,
+          "name": "IN THE TV KITCHEN",
+          "comments": null
+        },
+        {
+          "column": 3,
+          "name": "EUROPEAN HISTORY",
+          "comments": null
+        },
+        {
+          "column": 4,
+          "name": "I NOMINATE YOU FOR A NOBEL PRIZE!",
+          "comments": null
+        },
+        {
+          "column": 5,
+          "name": "SOUTHERN LITERATURE",
+          "comments": null
+        },
+        {
+          "column": 6,
+          "name": "CITY WORDS",
+          "comments": "(Mayim: Each response is a U.S. city with more than 100,000 people.)"
+        }
+      ],
+      "clues": [
+        {
+          "clue_id": 417006,
+          "board_position": {
+            "column": 1,
+            "row": 1
+          },
+          "play_order": 30,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "The early Renoir seen here is titled this type of space \"in the Woods\"",
+          "correct_response": "Clearing",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417008,
+          "board_position": {
+            "column": 2,
+            "row": 1
+          },
+          "play_order": 27,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Though this \"MasterChef\" judge was brought up in Stratford-upon-Avon, his language isn't exactly Shakespearean",
+          "correct_response": "(Gordon) Ramsay",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417009,
+          "board_position": {
+            "column": 3,
+            "row": 1
+          },
+          "play_order": 28,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "With a 72-year reign over France from 1643 to 1715, he's the longest-ruling king in European history",
+          "correct_response": "Louis XIV",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            },
+            {
+              "contestant": "Adriana",
+              "result": "incorrect",
+              "given_response": "Gosh. No. Sorry. Blanking."
+            }
+          ]
+        },
+        {
+          "clue_id": 417010,
+          "board_position": {
+            "column": 4,
+            "row": 1
+          },
+          "play_order": 26,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "How sweet! In 1919 Max Planck & this other German physicist nominated each other for Nobel prizes",
+          "correct_response": "Einstein",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "incorrect",
+              "given_response": "What's Heisenberg?"
+            },
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417012,
+          "board_position": {
+            "column": 5,
+            "row": 1
+          },
+          "play_order": 25,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Inspired by the author's hometown of Monroeville, Maycomb, Alabama is the setting for this 1960 classic",
+          "correct_response": "To Kill a Mockingbird",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417013,
+          "board_position": {
+            "column": 6,
+            "row": 1
+          },
+          "play_order": 29,
+          "value": 400,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Harmony, the opposite of discord",
+          "correct_response": "concord",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417007,
+          "board_position": {
+            "column": 1,
+            "row": 2
+          },
+          "play_order": 24,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "As it reaches into the sky, it makes sense for the highest peak in Wyoming's Bighorn Mountains to be named for this object",
+          "correct_response": "clouds",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416999,
+          "board_position": {
+            "column": 2,
+            "row": 2
+          },
+          "play_order": 19,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "After taking things \"One Day at a Time\" in the '80s, she started doing her \"Home Cooking\" on the Food Network",
+          "correct_response": "Bertinelli",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416990,
+          "board_position": {
+            "column": 3,
+            "row": 2
+          },
+          "play_order": 10,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Seen here is a tsunami map of the great earthquake of this European capital that took place in 1755",
+          "correct_response": "Lisbon",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417011,
+          "board_position": {
+            "column": 4,
+            "row": 2
+          },
+          "play_order": 22,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Pearl Buck, W.H. Auden & C.S. Lewis all nominated this \"North of Boston\" poet for Literature, but he never won",
+          "correct_response": "(Robert) Frost",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417002,
+          "board_position": {
+            "column": 5,
+            "row": 2
+          },
+          "play_order": 21,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "14-year-old Lily finds her way to Tiburon, S.C. & the Boatwright sisters in Sue Monk Kidd's \"The Secret Life of\" these",
+          "correct_response": "Bees",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417014,
+          "board_position": {
+            "column": 6,
+            "row": 2
+          },
+          "play_order": 23,
+          "value": 800,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A hanging sculpture moved by air currents",
+          "correct_response": "mobile",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416997,
+          "board_position": {
+            "column": 1,
+            "row": 3
+          },
+          "play_order": 20,
+          "value": 1200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Bunratty Castle, the most complete one in Ireland, is one of the many attractions of this county",
+          "correct_response": "Clare",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416986,
+          "board_position": {
+            "column": 2,
+            "row": 3
+          },
+          "play_order": 2,
+          "value": 1200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Because of Pillsbury this competition show from across the pond has a slightly different title for U.S. viewing",
+          "correct_response": "Great British Bake Off",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416991,
+          "board_position": {
+            "column": 3,
+            "row": 3
+          },
+          "play_order": 5,
+          "value": 1200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "After the second of these wars between Carthage & Rome, Spain was divided into provinces called Hispania Ulterior & Citerior",
+          "correct_response": "Punic Wars",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416995,
+          "board_position": {
+            "column": 4,
+            "row": 3
+          },
+          "play_order": 12,
+          "value": 1200,
+          "is_daily_double": true,
+          "wager": 5000,
+          "text": "In 1962 JFK nominated this first lady from an earlier administration for the Nobel Peace Prize",
+          "correct_response": "Eleanor Roosevelt",
+          "host_comment": "More information, please.",
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct",
+              "given_response": "What's Roosevelt?"
+            }
+          ]
+        },
+        {
+          "clue_id": 417003,
+          "board_position": {
+            "column": 5,
+            "row": 3
+          },
+          "play_order": 17,
+          "value": 1200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Colson Whitehead's novel about these \"Boys\" is based on abuse & worse at a real reform school in the Jim Crow Era",
+          "correct_response": "Nickel",
+          "host_comment": "The [*] Boys, yes.",
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417005,
+          "board_position": {
+            "column": 6,
+            "row": 3
+          },
+          "play_order": 18,
+          "value": 1200,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A flat-topped landform wider than a butte",
+          "correct_response": "mesa",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416989,
+          "board_position": {
+            "column": 1,
+            "row": 4
+          },
+          "play_order": 9,
+          "value": 1600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Artists often depicted this muse of history keeping her records",
+          "correct_response": "Clio",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416985,
+          "board_position": {
+            "column": 2,
+            "row": 4
+          },
+          "play_order": 1,
+          "value": 1600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In 2021 this actor went \"Searching for Italy\" on CNN, enjoying family kitchens & some amazing scenery",
+          "correct_response": "Stanley Tucci",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Adriana",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416987,
+          "board_position": {
+            "column": 3,
+            "row": 4
+          },
+          "play_order": 3,
+          "value": 1600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "In 2011, Czechs observed a period of mourning after the death of this president, poet & playwright",
+          "correct_response": "(Václav) Havel",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416996,
+          "board_position": {
+            "column": 4,
+            "row": 4
+          },
+          "play_order": 11,
+          "value": 1600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "It might ring a bell that 33 people nominated this Russian for the Nobel Prize in Medicine in 1901; he won it in 1904",
+          "correct_response": "(Ivan) Pavlov",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416988,
+          "board_position": {
+            "column": 5,
+            "row": 4
+          },
+          "play_order": 4,
+          "value": 1600,
+          "is_daily_double": true,
+          "wager": 6000,
+          "text": "Set in rural Georgia, this novel told in the form of letters won the 1983 Pulitzer Prize for Fiction",
+          "correct_response": "The Color Purple",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416993,
+          "board_position": {
+            "column": 6,
+            "row": 4
+          },
+          "play_order": 8,
+          "value": 1600,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A luminous event in the upper atmosphere",
+          "correct_response": "aurora",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416998,
+          "board_position": {
+            "column": 1,
+            "row": 5
+          },
+          "play_order": 15,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "It's basically a cherry pie with a fancy French name",
+          "correct_response": "clafoutis",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417000,
+          "board_position": {
+            "column": 2,
+            "row": 5
+          },
+          "play_order": 16,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Mariska Hargitay & Michelle Obama have been guests on Ina Garten's show called this, also an Ava Gardner title role",
+          "correct_response": "Barefoot Contessa",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416992,
+          "board_position": {
+            "column": 3,
+            "row": 5
+          },
+          "play_order": 6,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A famous one of these 4-letter groups assembled at Worms in 1521",
+          "correct_response": "a diet",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417001,
+          "board_position": {
+            "column": 4,
+            "row": 5
+          },
+          "play_order": 14,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "When Luigi Pirandello won in 1934, he was nominated by this countryman, a 1909 winner for physics",
+          "correct_response": "Marconi",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Daniel",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 417004,
+          "board_position": {
+            "column": 5,
+            "row": 5
+          },
+          "play_order": 13,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "Originally in a Savannah cemetery, a mysterious statue called \"Bird Girl\" appears on the cover of this John Berendt bestseller",
+          "correct_response": "Midnight in the Garden of Good and Evil",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": false,
+          "responses": [
+            {
+              "contestant": "Matt",
+              "result": "correct"
+            }
+          ]
+        },
+        {
+          "clue_id": 416994,
+          "board_position": {
+            "column": 6,
+            "row": 5
+          },
+          "play_order": 7,
+          "value": 2000,
+          "is_daily_double": false,
+          "wager": null,
+          "text": "A dessert of biscuit or ladyfinger with cream filling",
+          "correct_response": "a charlotte",
+          "host_comment": null,
+          "post_response_comment": null,
+          "triple_stumper": true,
+          "responses": []
+        }
+      ],
+      "scores": {
+        "end_of_round": [
+          {
+            "contestant": "Matt",
+            "score": 42600
+          },
+          {
+            "contestant": "Daniel",
+            "score": 15000
+          },
+          {
+            "contestant": "Adriana",
+            "score": 1800
+          }
+        ]
+      }
+    },
+    "final_jeopardy": {
+      "category": "MYTHOLOGY",
+      "category_comments": null,
+      "text": "The Hippocrene Spring, sacred to the Muses, was so named because this offspring of Medusa brought it into being",
+      "correct_response": "Pegasus",
+      "host_comment": "[To Matt] The winged horse who sprang from the blood of Medusa, kicked a hole in a rock and \"hippo\" is of or related to horses.",
+      "responses": [
+        {
+          "contestant": "Adriana",
+          "result": "incorrect",
+          "given_response": "What is",
+          "wager": 800
+        },
+        {
+          "contestant": "Daniel",
+          "result": "incorrect",
+          "given_response": "What is a centaur?",
+          "wager": 9622
+        },
+        {
+          "contestant": "Matt",
+          "result": "correct",
+          "given_response": "What is Pegasus?",
+          "wager": 8000
+        }
+      ],
+      "scores": {
+        "final": [
+          {
+            "contestant": "Matt",
+            "score": 50600
+          },
+          {
+            "contestant": "Daniel",
+            "score": 5378
+          },
+          {
+            "contestant": "Adriana",
+            "score": 1000
+          }
+        ]
+      }
+    }
+  },
+  "coryat_scores": [
+    {
+      "contestant": "Matt",
+      "score": 31200,
+      "correct": 36,
+      "incorrect": 1,
+      "daily_doubles_correct": 3,
+      "daily_doubles_incorrect": null
+    },
+    {
+      "contestant": "Daniel",
+      "score": 15000,
+      "correct": 17,
+      "incorrect": 2,
+      "daily_doubles_correct": null,
+      "daily_doubles_incorrect": null
+    },
+    {
+      "contestant": "Adriana",
+      "score": 1800,
+      "correct": 4,
+      "incorrect": 1,
+      "daily_doubles_correct": null,
+      "daily_doubles_incorrect": null
+    }
+  ],
+  "combined_coryat": 48000
+}
