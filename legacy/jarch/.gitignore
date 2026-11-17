@@ -1,5 +1,0 @@
-/result
-*.lock
-*.envrc
-.cache/
-.direnv/
