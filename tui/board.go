@@ -153,6 +153,7 @@ func (m Model) finishGame() (tea.Model, tea.Cmd) {
 	p.saved = true
 	rec := db.GameRecord{
 		GameID:      p.g.Label(),
+		ArchiveID:   p.g.GameID,
 		PlayedAt:    time.Now(),
 		PlayerScore: p.score,
 		Clues:       p.results,
@@ -517,4 +518,3 @@ func wrapOrTruncate(s string, width, lines int) string {
 	}
 	return strings.Join(parts, "\n")
 }
-

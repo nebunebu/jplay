@@ -309,7 +309,7 @@ func (m Model) viewGameDetail() string {
 		m.styles.Hint.Render(g.PlayedAt) + "  " +
 		m.styles.Gold.Render(money(g.Score))
 	if f := g.Finish(); f != "" {
-		head += m.styles.Hint.Render("  · finished "+f)
+		head += m.styles.Hint.Render("  · finished " + f)
 	}
 
 	header := []string{"Value", "Category", "Result", "Clue", "Correct response", "Your answer"}

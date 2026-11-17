@@ -42,8 +42,11 @@ type NavLink struct {
 }
 
 type Contestant struct {
-	PlayerID    int     `json:"player_id"`
-	Name        string  `json:"name"`
+	PlayerID int    `json:"player_id"`
+	Name     string `json:"name"`
+	// Nickname is the short name used in score tables and clue responses
+	// ("Matt" for "Matthew Amodio"); null if it cannot be determined.
+	Nickname    *string `json:"nickname"`
 	Description *string `json:"description"`
 	Href        string  `json:"href"`
 }
@@ -423,6 +426,60 @@ func buildRound(prefix, divID string, content *node, html string, nicknames []st
 	return r
 }
 
+// assignNicknames pairs contestants with score-table nicknames: first by
+// exact first name, then by prefix ("Matt" / "Matthew"), then by position
+// among the leftovers — contestants are listed in the reverse of the
+// score-table (podium) order.
+func assignNicknames(cs []Contestant, nicknames []string) {
+	taken := map[string]bool{}
+	assign := func(match func(c Contestant, nick string) bool) {
+		for i := range cs {
+			if cs[i].Nickname != nil {
+				continue
+			}
+			var hits []string
+			for _, n := range nicknames {
+				if !taken[n] && match(cs[i], n) {
+					hits = append(hits, n)
+				}
+			}
+			if len(hits) == 1 {
+				cs[i].Nickname = ptr(hits[0])
+				taken[hits[0]] = true
+			}
+		}
+	}
+	first := func(c Contestant) string {
+		if f := strings.Fields(c.Name); len(f) > 0 {
+			return f[0]
+		}
+		return ""
+	}
+	assign(func(c Contestant, n string) bool { return first(c) == n })
+	assign(func(c Contestant, n string) bool {
+		f := first(c)
+		return f != "" && (strings.HasPrefix(f, n) || strings.HasPrefix(n, f) || strings.HasPrefix(c.Name, n))
+	})
+
+	var freeC []int
+	for i := range cs {
+		if cs[i].Nickname == nil {
+			freeC = append(freeC, i)
+		}
+	}
+	var freeN []string
+	for _, n := range slices.Backward(nicknames) {
+		if !taken[n] {
+			freeN = append(freeN, n)
+		}
+	}
+	if len(freeC) == len(freeN) {
+		for k, i := range freeC {
+			cs[i].Nickname = ptr(freeN[k])
+		}
+	}
+}
+
 // --- assemble ---------------------------------------------------------------------
 
 var (
@@ -454,12 +511,12 @@ func parseGame(id int, html string, warn io.Writer) (*Game, error) {
 		return nil, fmt.Errorf("game %d: no div#content in page", id)
 	}
 
-	var nicknames []string
+	var nicknames []string // distinct, in page (podium) order
 	for _, n := range content.all(byClass("score_player_nickname")) {
-		nicknames = append(nicknames, unescape(n.text))
+		if nick := unescape(n.text); !slices.Contains(nicknames, nick) {
+			nicknames = append(nicknames, nick)
+		}
 	}
-	slices.Sort(nicknames)
-	nicknames = slices.Compact(nicknames)
 
 	title := ""
 	if h1 := content.first(byID("game_title")).first(byTag("h1")); h1 != nil {
@@ -503,6 +560,8 @@ func parseGame(id int, html string, warn io.Writer) (*Game, error) {
 			Href:        a.attr("href"),
 		})
 	}
+
+	assignNicknames(g.Contestants, nicknames)
 
 	g.Rounds.Jeopardy = buildRound("J", "jeopardy_round", content, html, nicknames)
 	g.Rounds.DoubleJeopardy = buildRound("DJ", "double_jeopardy_round", content, html, nicknames)

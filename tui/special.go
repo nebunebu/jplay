@@ -2,6 +2,7 @@ package tui
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 
 	tea "github.com/charmbracelet/bubbletea"
@@ -84,6 +85,9 @@ func (m Model) viewFinal() string {
 
 	switch p.fj {
 	case fjWager:
+		if m.cfg.ShowContestantScores && len(p.g.Contestants) > 0 {
+			b.WriteString(m.renderFJStandings() + "\n")
+		}
 		p.wagerInput.Width = 12
 		b.WriteString(m.styles.Label.Render("Your wager") + "\n" + p.wagerInput.View() + "\n")
 		if p.wagerErr != "" {
@@ -148,4 +152,59 @@ func (m Model) viewFinal() string {
 
 	panel := m.styles.Modal.Width(w).Render(strings.TrimRight(b.String(), "\n"))
 	return lipgloss.Place(m.width, m.height, lipgloss.Center, lipgloss.Center, panel)
+}
+
+// renderFJStandings lists the scores going into Final Jeopardy, highest
+// first, with a one-line wagering hint.
+func (m Model) renderFJStandings() string {
+	p := m.play
+	var b strings.Builder
+	b.WriteString(m.styles.Label.Render("GOING INTO FINAL") + "\n")
+	var opp []int
+	for _, c := range p.g.Contestants {
+		opp = append(opp, p.oppScores[c.Short])
+	}
+	type row struct {
+		name  string
+		score int
+	}
+	rows := []row{{"YOU", p.score}}
+	for i, c := range p.g.Contestants {
+		rows = append(rows, row{strings.ToUpper(c.Short), opp[i]})
+	}
+	sort.SliceStable(rows, func(i, j int) bool { return rows[i].score > rows[j].score })
+	for _, r := range rows {
+		st := m.styles.Text
+		if r.name == "YOU" {
+			st = m.styles.You
+		}
+		b.WriteString(st.Render(fmt.Sprintf("  %-12s %s", truncate(r.name, 12), money(r.score))) + "\n")
+	}
+	if h := fjWagerHint(p.score, opp); h != "" {
+		b.WriteString(m.styles.Hint.Render(h) + "\n")
+	}
+	return b.String()
+}
+
+// fjWagerHint gives classic Final Jeopardy wagering guidance relative to the
+// strongest opponent (assuming opponents may double their score).
+func fjWagerHint(you int, opponents []int) string {
+	if you <= 0 || len(opponents) == 0 {
+		return ""
+	}
+	best := opponents[0]
+	for _, o := range opponents[1:] {
+		best = max(best, o)
+	}
+	switch {
+	case you > 2*best:
+		return fmt.Sprintf("Runaway: wager at most %s and you win even if you miss.", money(you-2*best-1))
+	case you > best:
+		need := 2*best - you + 1
+		return fmt.Sprintf("Leading: wager at least %s to stay ahead if 2nd place doubles up.", money(need))
+	case you == best:
+		return "Tied for the lead: betting everything guarantees at least a tie if you're right."
+	default:
+		return fmt.Sprintf("Trailing the leader by %s.", money(best-you))
+	}
 }

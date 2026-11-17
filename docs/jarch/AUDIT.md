@@ -1,3 +1,50 @@
+# Audit: port to Go and merge into jplay
+
+Date: 2026-11-16
+
+## Change
+
+jarch (bash `bin/jarch` + `curl`/`pup`/`jq`, `lib/jarch/*.jq`) was rewritten
+as the Go package `jarch/` inside jplay. The TUI browser calls it in-process
+instead of running a `jarch` subprocess; standalone use is
+`jplay --fetch …`. The nix package no longer wraps an external `jarch` onto
+`PATH`.
+
+Behaviour preserved: cache file names and location (existing
+`~/.cache/jarch/` contents are reused), cache-first fetching, index-page TTL
+(`JARCH_INDEX_TTL`), fetch delay, User-Agent, `JARCH_DIR` semantics, CLI flags
+and default output names.
+
+Behaviour changed / fixed:
+
+- The TUI now honours jplay's `jarch_cache_dir` setting; the subprocess
+  previously ignored it and always used the XDG default.
+- Fetches are atomic (temp file + rename) and a non-200 response is an error.
+- Parser warnings go to an injectable writer; the TUI discards them (stderr
+  would corrupt the alt screen), `--fetch` prints them to stderr.
+
+## Verification
+
+Golden outputs were generated with the original bash tool from every cached
+fixture page (seasons list, seasons 42 and pcj, games 6789 and 6379, player
+5162); the Go parsers reproduce all of them byte-for-byte
+(`go test ./jarch`). A live fetch of game 7154 matched the original tool's
+saved output. The original `spec/6789.json` hand-written fixture did **not**
+match the bash tool's real output (response order predates the
+rulings-are-authoritative fix) and was retired in favour of the golden files.
+
+## Follow-up (2026-11-17)
+
+- Added `contestants[].nickname` so consumers stop guessing the
+  nickname ↔ full-name join by first name (see SPEC "contestants"). Game
+  goldens were regenerated; the diff was exactly the new field.
+- Added `game <season_id>/<episode>` lookup to the CLI.
+
+The audits below describe the bash implementation; the behaviour they
+introduced now lives in `jarch/jarch.go` (`Client.page`, `Client.fetch`).
+
+---
+
 # Audit: staleness TTL for index pages
 
 Date: 2026-07-22

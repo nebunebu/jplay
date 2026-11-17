@@ -83,3 +83,55 @@ func TestCLI(t *testing.T) {
 		t.Error("expected failure for non-integer game id")
 	}
 }
+
+func TestAssignNicknames(t *testing.T) {
+	names := func(ns ...string) []Contestant {
+		var cs []Contestant
+		for _, n := range ns {
+			cs = append(cs, Contestant{Name: n})
+		}
+		return cs
+	}
+	cases := []struct {
+		name  string
+		cs    []Contestant
+		nicks []string // podium order (reverse of contestant order)
+		want  []string
+	}{
+		{"first names", names("Carolyn Meek", "Leonard Schmidt", "Hansford Epes"),
+			[]string{"Hansford", "Leonard", "Carolyn"}, []string{"Carolyn", "Leonard", "Hansford"}},
+		{"shortened", names("Matthew Amodio", "Daniel Pecoraro", "Adriana Granados"),
+			[]string{"Adriana", "Daniel", "Matt"}, []string{"Matt", "Daniel", "Adriana"}},
+		{"shared first name", names("Mike Smith", "Ann Lee", "Mike Jones"),
+			[]string{"Mike J.", "Ann", "Mike S."}, []string{"Mike S.", "Ann", "Mike J."}},
+		{"unrelated nickname", names("Robert Ford", "Ann Lee", "Cat Wu"),
+			[]string{"Cat", "Ann", "Bob"}, []string{"Bob", "Ann", "Cat"}},
+	}
+	for _, c := range cases {
+		assignNicknames(c.cs, c.nicks)
+		for i, want := range c.want {
+			if got := c.cs[i].Nickname; got == nil || *got != want {
+				t.Errorf("%s: contestant %d nickname = %v, want %q", c.name, i, got, want)
+			}
+		}
+	}
+}
+
+func TestGameIDForEpisode(t *testing.T) {
+	c := offline(t)
+	if id, err := c.GameIDForEpisode("pcj", 49); err != nil || id != 9454 {
+		t.Errorf("pcj/49 = %d, %v; want 9454", id, err)
+	}
+	if _, err := c.GameIDForEpisode("pcj", 999999); err == nil {
+		t.Error("expected error for unknown episode")
+	}
+	// CLI form: resolves via the season page, then needs the game page,
+	// which is not cached -> offline-style failure is fine; check the
+	// resolution error path instead.
+	t.Setenv("JARCH_DIR", "testdata")
+	var out, errb bytes.Buffer
+	if code := RunCLI([]string{"game", "pcj/999999", "--stdout"}, "", &out, &errb); code == 0 ||
+		!bytes.Contains(errb.Bytes(), []byte("no episode #999999")) {
+		t.Errorf("code %d, stderr %q", code, errb.String())
+	}
+}

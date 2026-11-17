@@ -23,18 +23,21 @@
     {
       "player_id": 13521,
       "name": "Carolyn Meek",
+      "nickname": "Carolyn",
       "description": "a high school English teacher from Houston, Texas",
       "href": "showplayer.php?player_id=13521"
     },
     {
       "player_id": 13412,
       "name": "Leonard Schmidt",
+      "nickname": "Leonard",
       "description": "an optometrist from Pittsburgh, Pennsylvania",
       "href": "showplayer.php?player_id=13412"
     },
     {
       "player_id": 13525,
       "name": "Hansford Epes",
+      "nickname": "Hansford",
       "description": "a German and humanities professor from Davidson, North Carolina",
       "href": "showplayer.php?player_id=13525"
     }

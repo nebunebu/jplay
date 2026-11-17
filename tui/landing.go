@@ -67,7 +67,7 @@ func (m Model) updateLanding(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case key.String() == "enter":
 		if l.choice == 0 {
 			m.screen = ScreenBrowser
-			m.browser = newBrowserModel()
+			m.browser = newBrowserModel(m.db)
 			return m, loadSeasonsCmd(m.jarchClient())
 		}
 		l.entering = true

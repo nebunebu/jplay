@@ -5,10 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
+	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
 
 	"jplay/config"
+	"jplay/db"
 	"jplay/game"
 )
 
@@ -420,5 +422,71 @@ func TestManualOverride(t *testing.T) {
 	m = press(t, m, rune1("o")) // idempotent: only incorrect can flip
 	if p.score != before+2*value {
 		t.Errorf("second o changed score again")
+	}
+}
+
+func TestFJWagerHint(t *testing.T) {
+	cases := []struct {
+		you  int
+		opp  []int
+		want string
+	}{
+		{10000, []int{4000, 3000}, "Runaway: wager at most $1,999"},
+		{10000, []int{6000}, "Leading: wager at least $2,001"},
+		{5000, []int{5000}, "Tied for the lead"},
+		{3000, []int{5000, 1000}, "Trailing the leader by $2,000"},
+		{0, []int{5000}, ""},
+	}
+	for _, c := range cases {
+		got := fjWagerHint(c.you, c.opp)
+		if !strings.HasPrefix(got, c.want) || (c.want == "" && got != "") {
+			t.Errorf("fjWagerHint(%d, %v) = %q, want prefix %q", c.you, c.opp, got, c.want)
+		}
+	}
+}
+
+func TestFJWagerShowsStandings(t *testing.T) {
+	m := testModel(t)
+	m.play.score = 5000
+	for _, c := range m.play.g.Contestants {
+		m.play.oppScores[c.Short] = 1000
+	}
+	m.play.startFinal()
+	m.screen = ScreenFinal
+	view := m.View()
+	if !strings.Contains(view, "GOING INTO FINAL") || !strings.Contains(view, "Runaway") {
+		t.Errorf("FJ wager screen missing standings/hint:\n%s", view)
+	}
+	for _, c := range m.play.g.Contestants {
+		if !strings.Contains(view, strings.ToUpper(c.Short)) {
+			t.Errorf("FJ wager screen missing contestant %s", c.Short)
+		}
+	}
+}
+
+func TestBrowserPlayedBadge(t *testing.T) {
+	dir := t.TempDir()
+	cfg := config.Default()
+	cfg.DBPath = filepath.Join(dir, "history.db")
+	cfg.JarchCacheDir = dir
+	m := New(cfg, Options{Mode: "play"})
+	if m.db == nil {
+		t.Fatal(m.dbErr)
+	}
+	if _, err := m.db.SaveGame(db.GameRecord{GameID: "J#1", ArchiveID: 111, PlayedAt: time.Now()}); err != nil {
+		t.Fatal(err)
+	}
+	m = press(t, m, tea.WindowSizeMsg{Width: 120, Height: 30})
+	m.screen = ScreenBrowser
+	m.browser = newBrowserModel(m.db)
+	m.browser.loading = ""
+	m.browser.seasons = []seasonEntry{{Title: "Season 1", Href: "showseason.php?season=1"}}
+	m.browser.episodes["1"] = []episodeEntry{
+		{EpisodeNumber: 1, GameID: 111, Contestants: []string{"Ann"}},
+		{EpisodeNumber: 2, GameID: 222, Contestants: []string{"Bob"}},
+	}
+	view := m.View()
+	if !strings.Contains(view, "played") || !strings.Contains(view, "remote") {
+		t.Errorf("expected one played and one remote badge:\n%s", view)
 	}
 }

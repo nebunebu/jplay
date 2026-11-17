@@ -16,6 +16,8 @@ subcommands:
   seasons              parse listseasons.php               -> listseasons.json
   season <season_id>   parse showseason.php?season=<id>    -> season-<id>.json
   game <game_id>       parse showgame.php?game_id=<id>     -> <id>.json
+  game <season>/<ep>   same, looking the game up by season id and episode
+                       (show) number, e.g. game 42/9600 or game pcj/49
   player <player_id>   parse showplayer.php?player_id=<id> -> player-<id>.json
 
 flags:
@@ -102,12 +104,20 @@ func RunCLI(args []string, cacheDir string, stdout, stderr io.Writer) int {
 		v, err = c.Season(id)
 		defaultOut = "season-" + id + ".json"
 	case "game":
-		if !intRE.MatchString(id) {
-			return die("game requires an integer <game_id>")
+		var n int
+		switch season, ep, ok := strings.Cut(id, "/"); {
+		case intRE.MatchString(id):
+			n, _ = strconv.Atoi(id)
+		case ok && season != "" && intRE.MatchString(ep):
+			epn, _ := strconv.Atoi(ep)
+			if n, err = c.GameIDForEpisode(season, epn); err != nil {
+				return die("%v", err)
+			}
+		default:
+			return die("game requires an integer <game_id> or <season_id>/<episode>")
 		}
-		n, _ := strconv.Atoi(id)
 		v, err = c.Game(n)
-		defaultOut = id + ".json"
+		defaultOut = strconv.Itoa(n) + ".json"
 	case "player":
 		if !intRE.MatchString(id) {
 			return die("player requires an integer <player_id>")

@@ -70,11 +70,11 @@ func newPlayModel(g *game.Game, cfg config.Config) *playModel {
 	wi.CharLimit = 7
 
 	p := &playModel{
-		g:         g,
-		cfg:       cfg,
-		oppScores: map[string]int{},
-		counts:    map[game.ClueState]int{},
-		input:     in,
+		g:          g,
+		cfg:        cfg,
+		oppScores:  map[string]int{},
+		counts:     map[game.ClueState]int{},
+		input:      in,
 		wagerInput: wi,
 	}
 	for _, c := range g.Contestants {

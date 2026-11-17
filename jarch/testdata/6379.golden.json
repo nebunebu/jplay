@@ -19,18 +19,21 @@
     {
       "player_id": 12824,
       "name": "Jason Zuffranieri",
+      "nickname": "Jason",
       "description": "a math teacher from Albuquerque, New Mexico",
       "href": "showplayer.php?player_id=12824"
     },
     {
       "player_id": 12825,
       "name": "Kathleen O'Shea",
+      "nickname": "Kathleen",
       "description": "a PR content manager from Chicago, Illinois",
       "href": "showplayer.php?player_id=12825"
     },
     {
       "player_id": 12822,
       "name": "Nathan Kaplan",
+      "nickname": "Nathan",
       "description": "a math professor from Los Angeles, California (whose 1-day cash winnings total $19,600)",
       "href": "showplayer.php?player_id=12822"
     }

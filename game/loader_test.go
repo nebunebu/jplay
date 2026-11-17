@@ -1,6 +1,7 @@
 package game
 
 import (
+	"encoding/json"
 	"os"
 	"testing"
 )
@@ -57,5 +58,42 @@ func TestLoadFixture(t *testing.T) {
 	}
 	if got := ContestantDelta(dd, "Matt"); got != 3800 {
 		t.Errorf("ContestantDelta(DD) = %d", got)
+	}
+}
+
+// TestLoadNickname: jarch's explicit nickname wins over the first-name
+// heuristic (which 7154.json, predating the field, exercises above).
+func TestLoadNickname(t *testing.T) {
+	data, err := os.ReadFile(fixture)
+	if err != nil {
+		t.Skip("fixture not available")
+	}
+	var doc map[string]any
+	if err := json.Unmarshal(data, &doc); err != nil {
+		t.Fatal(err)
+	}
+	for _, c := range doc["contestants"].([]any) {
+		c := c.(map[string]any)
+		if c["name"] == "Matt Amodio" {
+			c["name"] = "Matthew Amodio"
+			c["nickname"] = "Matt"
+		}
+	}
+	data, _ = json.Marshal(doc)
+	g, err := Load(data)
+	if err != nil {
+		t.Fatal(err)
+	}
+	found := false
+	for _, c := range g.Contestants {
+		if c.Name == "Matthew Amodio" {
+			found = true
+			if c.Short != "Matt" {
+				t.Errorf("Short = %q, want Matt (from nickname)", c.Short)
+			}
+		}
+	}
+	if !found {
+		t.Fatal("contestant not found")
 	}
 }

@@ -28,7 +28,8 @@ type ContestantScore struct {
 
 // GameRecord is a completed play-through, written in one transaction.
 type GameRecord struct {
-	GameID      string
+	GameID      string // display label
+	ArchiveID   int    // J! Archive game_id (0 = unknown)
 	PlayedAt    time.Time
 	PlayerScore int
 	Contestants []ContestantScore
@@ -46,8 +47,8 @@ func (d *DB) SaveGame(rec GameRecord) (int64, error) {
 	defer tx.Rollback()
 
 	res, err := tx.Exec(
-		`INSERT INTO games (game_id, played_at, player_score) VALUES (?, ?, ?)`,
-		rec.GameID, rec.PlayedAt.UTC().Format(time.RFC3339), rec.PlayerScore)
+		`INSERT INTO games (game_id, archive_id, played_at, player_score) VALUES (?, ?, ?, ?)`,
+		rec.GameID, nullInt(rec.ArchiveID), rec.PlayedAt.UTC().Format(time.RFC3339), rec.PlayerScore)
 	if err != nil {
 		return 0, err
 	}
@@ -112,6 +113,38 @@ func (r RecentGame) Finish() string {
 		return ""
 	}
 	return ordinal(r.Position) + " of " + strconv.Itoa(r.Players)
+}
+
+func nullInt(n int) any {
+	if n == 0 {
+		return nil
+	}
+	return n
+}
+
+// Played reports which games have been played to completion: archive ids
+// for rows that recorded one, and display labels ("J#1834") for older rows
+// that did not.
+func (d *DB) Played() (ids map[int]bool, labels map[string]bool, err error) {
+	rows, err := d.sql.Query(`SELECT DISTINCT game_id, archive_id FROM games`)
+	if err != nil {
+		return nil, nil, err
+	}
+	defer rows.Close()
+	ids, labels = map[int]bool{}, map[string]bool{}
+	for rows.Next() {
+		var label string
+		var id sql.NullInt64
+		if err := rows.Scan(&label, &id); err != nil {
+			return nil, nil, err
+		}
+		if id.Valid {
+			ids[int(id.Int64)] = true
+		} else {
+			labels[label] = true
+		}
+	}
+	return ids, labels, rows.Err()
 }
 
 // RecentGames returns the most recent plays, newest first.

@@ -28,8 +28,8 @@ type Config struct {
 	StripQuestionFraming bool
 	PassPenalty          bool
 	// display
-	Theme                 string
-	ShowContestantScores  bool
+	Theme                string
+	ShowContestantScores bool
 	// data
 	DBPath        string
 	JarchCacheDir string

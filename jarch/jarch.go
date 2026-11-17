@@ -184,6 +184,21 @@ func (c *Client) Game(id int) (*Game, error) {
 	return parseGame(id, html, c.Warn)
 }
 
+// GameIDForEpisode resolves a season id and episode (show) number, as shown
+// on the season page ("#9600"), to a game_id.
+func (c *Client) GameIDForEpisode(season string, episode int) (int, error) {
+	rows, err := c.Season(season)
+	if err != nil {
+		return 0, err
+	}
+	for _, r := range rows {
+		if r.EpisodeNumber == episode {
+			return r.GameID, nil
+		}
+	}
+	return 0, fmt.Errorf("season %s has no episode #%d", season, episode)
+}
+
 // Player parses showplayer.php?player_id=<id>.
 func (c *Client) Player(id int) (*Player, error) {
 	html, err := c.page(PlayerPage(id), false)

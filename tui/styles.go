@@ -121,23 +121,23 @@ type Styles struct {
 	You        lipgloss.Style // foam
 	CategoryHd lipgloss.Style // iris category names
 
-	CellAvail    lipgloss.Style
-	CellCursor   lipgloss.Style
-	CellUsed     lipgloss.Style
-	CellNA       lipgloss.Style
-	CatCell      lipgloss.Style
-	Panel        lipgloss.Style // bordered panel (score panel etc.)
-	Modal        lipgloss.Style // clue modal frame
-	ClueText     lipgloss.Style // iris left border block
-	StatusKey    lipgloss.Style
-	StatusBar    lipgloss.Style
-	TabActive    lipgloss.Style
-	TabInactive  lipgloss.Style
-	SelectedRow  lipgloss.Style
-	DimBoard     lipgloss.Style // dimmed board behind modal
-	InputPrompt  lipgloss.Style
-	BadgeCached  lipgloss.Style
-	BadgeRemote  lipgloss.Style
+	CellAvail   lipgloss.Style
+	CellCursor  lipgloss.Style
+	CellUsed    lipgloss.Style
+	CellNA      lipgloss.Style
+	CatCell     lipgloss.Style
+	Panel       lipgloss.Style // bordered panel (score panel etc.)
+	Modal       lipgloss.Style // clue modal frame
+	ClueText    lipgloss.Style // iris left border block
+	StatusKey   lipgloss.Style
+	StatusBar   lipgloss.Style
+	TabActive   lipgloss.Style
+	TabInactive lipgloss.Style
+	SelectedRow lipgloss.Style
+	DimBoard    lipgloss.Style // dimmed board behind modal
+	InputPrompt lipgloss.Style
+	BadgeCached lipgloss.Style
+	BadgeRemote lipgloss.Style
 }
 
 // NewStyles builds all styles from a theme; nothing else in the package may

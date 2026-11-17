@@ -1,6 +1,7 @@
 package db
 
 import (
+	"database/sql"
 	"path/filepath"
 	"testing"
 	"time"
@@ -127,4 +128,46 @@ func TestBadStateRejected(t *testing.T) {
 	if len(recent) != 0 {
 		t.Errorf("partial write leaked: %+v", recent)
 	}
+}
+
+func TestPlayedAndMigration(t *testing.T) {
+	path := filepath.Join(t.TempDir(), "history.db")
+
+	// A pre-v0.2 database: games table without archive_id, one legacy row.
+	old, err := sql.Open("sqlite", path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if _, err := old.Exec(`CREATE TABLE games (id INTEGER PRIMARY KEY AUTOINCREMENT,
+		game_id TEXT NOT NULL, played_at TEXT NOT NULL, player_score INTEGER NOT NULL);
+		INSERT INTO games (game_id, played_at, player_score) VALUES ('J#1834', '2026-07-01T00:00:00Z', 100);`); err != nil {
+		t.Fatal(err)
+	}
+	old.Close()
+
+	d, err := Open(path) // migrates
+	if err != nil {
+		t.Fatalf("Open (migrate): %v", err)
+	}
+	defer d.Close()
+	if _, err := d.SaveGame(GameRecord{GameID: "J#9000", ArchiveID: 7154, PlayedAt: time.Now()}); err != nil {
+		t.Fatal(err)
+	}
+	ids, labels, err := d.Played()
+	if err != nil {
+		t.Fatal(err)
+	}
+	if !ids[7154] || len(ids) != 1 {
+		t.Errorf("ids = %v, want {7154}", ids)
+	}
+	if !labels["J#1834"] || labels["J#9000"] {
+		t.Errorf("labels = %v, want only legacy J#1834", labels)
+	}
+
+	// Re-opening an already-migrated DB is a no-op.
+	d2, err := Open(path)
+	if err != nil {
+		t.Fatalf("reopen: %v", err)
+	}
+	d2.Close()
 }

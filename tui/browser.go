@@ -7,6 +7,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
+	"jplay/db"
 	"jplay/game"
 	"jplay/jarch"
 )
@@ -25,13 +26,26 @@ type browserModel struct {
 	focus     int    // 0 = seasons pane, 1 = episodes pane
 	loading   string // human-readable in-flight operation, "" when idle
 	err       string
+
+	// Games already played to completion (from the history DB): archive
+	// ids, plus display labels for rows saved before ids were recorded.
+	played       map[int]bool
+	playedLabels map[string]bool
 }
 
-func newBrowserModel() browserModel {
-	return browserModel{episodes: map[string][]episodeEntry{}, loading: "loading seasons…"}
+func newBrowserModel(d *db.DB) browserModel {
+	b := browserModel{episodes: map[string][]episodeEntry{}, loading: "loading seasons…"}
+	if d != nil {
+		b.played, b.playedLabels, _ = d.Played() // best-effort: badges only
+	}
+	return b
 }
 
-// --- jarch subprocess commands -------------------------------------------
+func (b browserModel) isPlayed(ep episodeEntry, label string) bool {
+	return b.played[ep.GameID] || b.playedLabels[label]
+}
+
+// --- archive fetch commands ------------------------------------------------
 
 type seasonsMsg struct {
 	seasons []seasonEntry
@@ -91,11 +105,6 @@ func fetchOnlyCmd(c *jarch.Client, gameID int) tea.Cmd {
 		_, err := c.Game(gameID)
 		return fetchedMsg{gameID: gameID, err: err}
 	}
-}
-
-// isCached reports whether the game page is already in the jarch cache.
-func (m Model) isCached(gameID int) bool {
-	return m.jarchClient().IsCached(jarch.GamePage(gameID))
 }
 
 // --- update ---------------------------------------------------------------
@@ -278,16 +287,20 @@ func (m Model) viewBrowser() string {
 			m.styles.Hint.Render(fmt.Sprintf("%s → %s · %d episodes", s.StartDate, deref(s.EndDate), s.GamesArchived)) + "\n")
 	}
 	eps := m.currentEpisodes()
+	jc := m.jarchClient()
 	epStart := windowStart(b.epIdx, len(eps), listH-1)
 	for i := epStart; i < len(eps) && i-epStart < listH-1; i++ {
 		ep := eps[i]
-		badge := m.styles.BadgeRemote.Render("remote")
-		if m.isCached(ep.GameID) {
-			badge = m.styles.BadgeCached.Render("cached")
-		}
 		id := fmt.Sprintf("J#%d", ep.EpisodeNumber)
 		if ep.EpisodeNumber == 0 {
 			id = fmt.Sprintf("game %d", ep.GameID)
+		}
+		badge := m.styles.BadgeRemote.Render("remote")
+		switch {
+		case b.isPlayed(ep, id):
+			badge = m.styles.Correct.Render("played")
+		case jc.IsCached(jarch.GamePage(ep.GameID)):
+			badge = m.styles.BadgeCached.Render("cached")
 		}
 		names := strings.Join(ep.Contestants, ", ")
 		line := fmt.Sprintf("%s  %s  %s", pad(id, 8), ep.AirDate, names)

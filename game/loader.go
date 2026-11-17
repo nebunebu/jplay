@@ -22,6 +22,7 @@ type jarchGame struct {
 
 type jarchContestant struct {
 	Name        string `json:"name"`
+	Nickname    string `json:"nickname"` // absent in JSON from older jarch versions
 	Description string `json:"description"`
 }
 
@@ -42,7 +43,7 @@ type jarchCategory struct {
 }
 
 type jarchClue struct {
-	ClueID        int    `json:"clue_id"`
+	ClueID        int `json:"clue_id"`
 	BoardPosition struct {
 		Column int `json:"column"`
 		Row    int `json:"row"`
@@ -101,9 +102,14 @@ func Load(data []byte) (*Game, error) {
 		AirDate:    jg.AirDate,
 	}
 	for _, c := range jg.Contestants {
-		short := c.Name
-		if i := strings.IndexByte(c.Name, ' '); i > 0 {
-			short = c.Name[:i]
+		// The nickname keys clue responses and score tables. Older jarch
+		// output lacks it; fall back to the first name.
+		short := c.Nickname
+		if short == "" {
+			short = c.Name
+			if i := strings.IndexByte(c.Name, ' '); i > 0 {
+				short = c.Name[:i]
+			}
 		}
 		g.Contestants = append(g.Contestants, Contestant{
 			Name:        c.Name,

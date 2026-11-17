@@ -39,10 +39,10 @@ type Model struct {
 	screen          Screen
 	statsStandalone bool // launched as `jplay --stats`: q quits instead of going back
 	landing         landingModel
-	browser browserModel
-	play    *playModel
-	stats   statsModel
-	confSc  configModel
+	browser         browserModel
+	play            *playModel
+	stats           statsModel
+	confSc          configModel
 
 	flash string // transient status-line message
 }
