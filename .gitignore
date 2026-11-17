@@ -1,0 +1,9 @@
+/result
+/result-*
+/jplay
+*.envrc
+.cache/
+.direnv/
+.claude/settings.local.json
+# Pre-merge copies of the old jarch (bash/jq) and jarchive dirs.
+/legacy/

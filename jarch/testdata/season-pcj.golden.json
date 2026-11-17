@@ -1,0 +1,933 @@
+[
+  {
+    "episode_number": 49,
+    "taped_date": "2025-12-07",
+    "air_date": "2026-05-15",
+    "contestants": [
+      "Ike Barinholtz",
+      "Steven Weber",
+      "Mina Kimes"
+    ],
+    "href": "showgame.php?game_id=9454",
+    "game_id": 9454,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars final game.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "final",
+      "game_number": null
+    }
+  },
+  {
+    "episode_number": 48,
+    "taped_date": "2025-12-07",
+    "air_date": "2026-05-14",
+    "contestants": [
+      "Ike Barinholtz",
+      "Patton Oswalt",
+      "Mira Sorvino"
+    ],
+    "href": "showgame.php?game_id=9452",
+    "game_id": 9452,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 47,
+    "taped_date": "2025-10-12",
+    "air_date": "2026-05-13",
+    "contestants": [
+      "W. Kamau Bell",
+      "Sean Gunn",
+      "Steven Weber"
+    ],
+    "href": "showgame.php?game_id=9450",
+    "game_id": 9450,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 46,
+    "taped_date": "2025-10-11",
+    "air_date": "2026-05-12",
+    "contestants": [
+      "Lisa Ann Walter",
+      "Katie Nolan",
+      "Mina Kimes"
+    ],
+    "href": "showgame.php?game_id=9448",
+    "game_id": 9448,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 45,
+    "taped_date": "2025-12-07",
+    "air_date": "2026-05-08",
+    "contestants": [
+      "Mo Rocca",
+      "Mira Sorvino",
+      "Ray Romano"
+    ],
+    "href": "showgame.php?game_id=9445",
+    "game_id": 9445,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 44,
+    "taped_date": "2025-10-12",
+    "air_date": "2026-05-01",
+    "contestants": [
+      "Robin Thede",
+      "Patton Oswalt",
+      "Margaret Cho"
+    ],
+    "href": "showgame.php?game_id=9439",
+    "game_id": 9439,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 43,
+    "taped_date": "2025-10-11",
+    "air_date": "2026-04-17",
+    "contestants": [
+      "Mina Kimes",
+      "Andy Richter",
+      "Timothy Simons"
+    ],
+    "href": "showgame.php?game_id=9428",
+    "game_id": 9428,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 42,
+    "taped_date": "2025-10-12",
+    "air_date": "2026-03-27",
+    "contestants": [
+      "Sean Gunn",
+      "Cynthia Nixon",
+      "Roy Wood Jr."
+    ],
+    "href": "showgame.php?game_id=9412",
+    "game_id": 9412,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 41,
+    "taped_date": "2025-10-11",
+    "air_date": "2026-03-20",
+    "contestants": [
+      "Macaulay Culkin",
+      "Steven Weber",
+      "Jackie Tohn"
+    ],
+    "href": "showgame.php?game_id=9406",
+    "game_id": 9406,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 40,
+    "taped_date": "2025-10-11",
+    "air_date": "2026-03-13",
+    "contestants": [
+      "Rachel Dratch",
+      "Mark Duplass",
+      "Katie Nolan"
+    ],
+    "href": "showgame.php?game_id=9400",
+    "game_id": 9400,
+    "note": "2026 Primetime Celebrity Jeopardy! All-Stars quarterfinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Primetime Celebrity Jeopardy! All-Stars",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 39,
+    "taped_date": "2024-11-09",
+    "air_date": "2025-04-23",
+    "contestants": [
+      "W. Kamau Bell",
+      "Dave Friedberg",
+      "Robin Thede"
+    ],
+    "href": "showgame.php?game_id=9181",
+    "game_id": 9181,
+    "note": "2025 Primetime Celebrity Jeopardy! final game.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "final",
+      "game_number": null
+    }
+  },
+  {
+    "episode_number": 38,
+    "taped_date": "2024-10-22",
+    "air_date": "2025-04-16",
+    "contestants": [
+      "Mina Kimes",
+      "Sean Gunn",
+      "Dave Friedberg"
+    ],
+    "href": "showgame.php?game_id=9172",
+    "game_id": 9172,
+    "note": "2025 Primetime Celebrity Jeopardy! semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 37,
+    "taped_date": "2024-10-21",
+    "air_date": "2025-04-09",
+    "contestants": [
+      "Robin Thede",
+      "Natalie Morales",
+      "Roy Wood Jr."
+    ],
+    "href": "showgame.php?game_id=9165",
+    "game_id": 9165,
+    "note": "2025 Primetime Celebrity Jeopardy! semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 36,
+    "taped_date": "2024-10-20",
+    "air_date": "2025-04-02",
+    "contestants": [
+      "Margaret Cho",
+      "Jackie Tohn",
+      "W. Kamau Bell"
+    ],
+    "href": "showgame.php?game_id=9161",
+    "game_id": 9161,
+    "note": "2025 Primetime Celebrity Jeopardy! semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 35,
+    "taped_date": "2024-10-22",
+    "air_date": "2025-03-12",
+    "contestants": [
+      "Omar J. Dorsey",
+      "Mina Kimes",
+      "Fortune Feimster"
+    ],
+    "href": "showgame.php?game_id=9160",
+    "game_id": 9160,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 9.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 9
+    }
+  },
+  {
+    "episode_number": 34,
+    "taped_date": "2024-10-22",
+    "air_date": "2025-03-05",
+    "contestants": [
+      "Sean Gunn",
+      "D'Arcy Carden",
+      "Sherry Cola"
+    ],
+    "href": "showgame.php?game_id=9159",
+    "game_id": 9159,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 8.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 8
+    }
+  },
+  {
+    "episode_number": 33,
+    "taped_date": "2024-10-22",
+    "air_date": "2025-02-26",
+    "contestants": [
+      "Ana Navarro",
+      "Dave Friedberg",
+      "Yvette Nicole Brown"
+    ],
+    "href": "showgame.php?game_id=9131",
+    "game_id": 9131,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 7.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 7
+    }
+  },
+  {
+    "episode_number": 32,
+    "taped_date": "2024-10-21",
+    "air_date": "2025-02-12",
+    "contestants": [
+      "Susie Essman",
+      "Blake Anderson",
+      "Robin Thede"
+    ],
+    "href": "showgame.php?game_id=9122",
+    "game_id": 9122,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 31,
+    "taped_date": "2024-10-21",
+    "air_date": "2025-02-05",
+    "contestants": [
+      "Chris Distefano",
+      "Natalie Morales",
+      "Corbin Bleu"
+    ],
+    "href": "showgame.php?game_id=9116",
+    "game_id": 9116,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 30,
+    "taped_date": "2024-10-21",
+    "air_date": "2025-01-29",
+    "contestants": [
+      "Roy Wood Jr.",
+      "Brian Jordan Alvarez",
+      "Phoebe Robinson"
+    ],
+    "href": "showgame.php?game_id=9109",
+    "game_id": 9109,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 4. The Final Jeopardy!...",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 29,
+    "taped_date": "2024-10-20",
+    "air_date": "2025-01-22",
+    "contestants": [
+      "Rachel Brosnahan",
+      "Seth Green",
+      "Margaret Cho"
+    ],
+    "href": "showgame.php?game_id=9103",
+    "game_id": 9103,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 28,
+    "taped_date": "2024-10-20",
+    "air_date": "2025-01-15",
+    "contestants": [
+      "Melissa Peterman",
+      "Neil deGrasse Tyson",
+      "Jackie Tohn"
+    ],
+    "href": "showgame.php?game_id=9098",
+    "game_id": 9098,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 27,
+    "taped_date": "2024-10-20",
+    "air_date": "2025-01-08",
+    "contestants": [
+      "Max Greenfield",
+      "Camilla Luddington",
+      "W. Kamau Bell"
+    ],
+    "href": "showgame.php?game_id=9091",
+    "game_id": 9091,
+    "note": "2025 Primetime Celebrity Jeopardy! quarterfinal game 1.\nKen Jennings hosts.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 26,
+    "taped_date": "2023-11-05",
+    "air_date": "2024-01-23",
+    "contestants": [
+      "Mo Rocca",
+      "Lisa Ann Walter",
+      "Katie Nolan"
+    ],
+    "href": "showgame.php?game_id=8783",
+    "game_id": 8783,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! final game.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "final",
+      "game_number": null
+    }
+  },
+  {
+    "episode_number": 25,
+    "taped_date": "2023-10-11",
+    "air_date": "2024-01-16",
+    "contestants": [
+      "Rachel Dratch",
+      "Mo Rocca",
+      "Heather McMahan"
+    ],
+    "href": "showgame.php?game_id=8777",
+    "game_id": 8777,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 24,
+    "taped_date": "2023-08-23",
+    "air_date": "2024-01-09",
+    "contestants": [
+      "Steven Weber",
+      "Katie Nolan",
+      "Dulé Hill"
+    ],
+    "href": "showgame.php?game_id=8764",
+    "game_id": 8764,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 23,
+    "taped_date": "2023-08-21",
+    "air_date": "2024-01-02",
+    "contestants": [
+      "Utkarsh Ambudkar",
+      "Mira Sorvino",
+      "Lisa Ann Walter"
+    ],
+    "href": "showgame.php?game_id=8749",
+    "game_id": 8749,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 22,
+    "taped_date": "2023-10-11",
+    "air_date": "2023-12-06",
+    "contestants": [
+      "Kyra Sedgwick",
+      "Mo Rocca",
+      "Amanda Seales"
+    ],
+    "href": "showgame.php?game_id=8709",
+    "game_id": 8709,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 9.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 9
+    }
+  },
+  {
+    "episode_number": 21,
+    "taped_date": "2023-10-11",
+    "air_date": "2023-11-29",
+    "contestants": [
+      "Cynthia Nixon",
+      "Cedric the Entertainer",
+      "Heather McMahan"
+    ],
+    "href": "showgame.php?game_id=8703",
+    "game_id": 8703,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 8.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 8
+    }
+  },
+  {
+    "episode_number": 20,
+    "taped_date": "2023-10-11",
+    "air_date": "2023-11-15",
+    "contestants": [
+      "Macaulay Culkin",
+      "Rachel Dratch",
+      "Becky Lynch"
+    ],
+    "href": "showgame.php?game_id=8692",
+    "game_id": 8692,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 7.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 7
+    }
+  },
+  {
+    "episode_number": 19,
+    "taped_date": "2023-08-23",
+    "air_date": "2023-11-01",
+    "contestants": [
+      "Dulé Hill",
+      "Sheryl Underwood",
+      "Peter Facinelli"
+    ],
+    "href": "showgame.php?game_id=8660",
+    "game_id": 8660,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 18,
+    "taped_date": "2023-08-21",
+    "air_date": "2023-10-25",
+    "contestants": [
+      "Mira Sorvino",
+      "Adam Rodriguez",
+      "Peter Schrager"
+    ],
+    "href": "showgame.php?game_id=8654",
+    "game_id": 8654,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 17,
+    "taped_date": "2023-08-23",
+    "air_date": "2023-10-18",
+    "contestants": [
+      "Steven Weber",
+      "Shane Battier",
+      "Melissa Fumero"
+    ],
+    "href": "showgame.php?game_id=8640",
+    "game_id": 8640,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 16,
+    "taped_date": "2023-08-23",
+    "air_date": "2023-10-11",
+    "contestants": [
+      "Christopher Meloni",
+      "Sherri Shepherd",
+      "Katie Nolan"
+    ],
+    "href": "showgame.php?game_id=8621",
+    "game_id": 8621,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 3. First game with...",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 15,
+    "taped_date": "2023-08-21",
+    "air_date": "2023-10-04",
+    "contestants": [
+      "Brian Baumgartner",
+      "Lisa Ann Walter",
+      "Timothy Simons"
+    ],
+    "href": "showgame.php?game_id=8606",
+    "game_id": 8606,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 14,
+    "taped_date": "2023-08-21",
+    "air_date": "2023-09-27",
+    "contestants": [
+      "Mark Duplass",
+      "Emily Hampshire",
+      "Utkarsh Ambudkar"
+    ],
+    "href": "showgame.php?game_id=8594",
+    "game_id": 8594,
+    "note": "2023-2024 Primetime Celebrity Jeopardy! quarterfinal game 1.\nKen Jennings hosts.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2023-2024 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 13,
+    "taped_date": "2022-12-11",
+    "air_date": "2023-02-02",
+    "contestants": [
+      "Wil Wheaton",
+      "Patton Oswalt",
+      "Ike Barinholtz"
+    ],
+    "href": "showgame.php?game_id=7691",
+    "game_id": 7691,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! final game.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "final",
+      "game_number": null
+    }
+  },
+  {
+    "episode_number": 12,
+    "taped_date": "2022-11-06",
+    "air_date": "2023-01-26",
+    "contestants": [
+      "Patton Oswalt",
+      "Brendan Hunt",
+      "Michael Cera"
+    ],
+    "href": "showgame.php?game_id=7677",
+    "game_id": 7677,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 11,
+    "taped_date": "2022-11-06",
+    "air_date": "2023-01-19",
+    "contestants": [
+      "B.J. Novak",
+      "Brendan Hunt",
+      "Cari Champion"
+    ],
+    "href": "showgame.php?game_id=7674",
+    "game_id": 7674,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 9.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 9
+    }
+  },
+  {
+    "episode_number": 10,
+    "taped_date": "2022-11-06",
+    "air_date": "2023-01-12",
+    "contestants": [
+      "Patton Oswalt",
+      "Candace Parker",
+      "Torrey DeVitto"
+    ],
+    "href": "showgame.php?game_id=7654",
+    "game_id": 7654,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 8.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 8
+    }
+  },
+  {
+    "episode_number": 9,
+    "taped_date": "2022-11-06",
+    "air_date": "2023-01-05",
+    "contestants": [
+      "Michael Cera",
+      "Brianne Howey",
+      "Zoë Chao"
+    ],
+    "href": "showgame.php?game_id=7635",
+    "game_id": 7635,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 7.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 7
+    }
+  },
+  {
+    "episode_number": 8,
+    "taped_date": "2022-10-02",
+    "air_date": "2022-11-13",
+    "contestants": [
+      "John Michael Higgins",
+      "Wil Wheaton",
+      "Joel Kim Booster"
+    ],
+    "href": "showgame.php?game_id=7510",
+    "game_id": 7510,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 7,
+    "taped_date": "2022-10-02",
+    "air_date": "2022-11-06",
+    "contestants": [
+      "Ray Romano",
+      "Joel Kim Booster",
+      "Melissa Rauch"
+    ],
+    "href": "showgame.php?game_id=7500",
+    "game_id": 7500,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 6,
+    "taped_date": "2022-10-02",
+    "air_date": "2022-10-30",
+    "contestants": [
+      "Troian Bellisario",
+      "Wil Wheaton",
+      "Hasan Minhaj"
+    ],
+    "href": "showgame.php?game_id=7490",
+    "game_id": 7490,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 5,
+    "taped_date": "2022-10-02",
+    "air_date": "2022-10-23",
+    "contestants": [
+      "Aisha Tyler",
+      "John Michael Higgins",
+      "Matt Rogers"
+    ],
+    "href": "showgame.php?game_id=7481",
+    "game_id": 7481,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 4,
+    "taped_date": "2022-09-11",
+    "air_date": "2022-10-16",
+    "contestants": [
+      "Ike Barinholtz",
+      "Simu Liu",
+      "Iliza Shlesinger"
+    ],
+    "href": "showgame.php?game_id=7472",
+    "game_id": 7472,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 3,
+    "taped_date": "2022-09-11",
+    "air_date": "2022-10-09",
+    "contestants": [
+      "Constance Wu",
+      "Ike Barinholtz",
+      "Jalen Rose"
+    ],
+    "href": "showgame.php?game_id=7464",
+    "game_id": 7464,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 2,
+    "taped_date": "2022-09-11",
+    "air_date": "2022-10-02",
+    "contestants": [
+      "Eddie Huang",
+      "Reggie Watts",
+      "Iliza Shlesinger"
+    ],
+    "href": "showgame.php?game_id=7456",
+    "game_id": 7456,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 1,
+    "taped_date": "2022-09-11",
+    "air_date": "2022-09-25",
+    "contestants": [
+      "Simu Liu",
+      "Ego Nwodim",
+      "Andy Richter"
+    ],
+    "href": "showgame.php?game_id=7447",
+    "game_id": 7447,
+    "note": "2022-2023 Primetime Celebrity Jeopardy! quarterfinal game 1.\nMayim Bialik hosts.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2022-2023 Primetime Celebrity Jeopardy!",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  }
+]

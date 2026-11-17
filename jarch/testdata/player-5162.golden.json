@@ -1,0 +1,44 @@
+{
+  "player_id": 5162,
+  "name": "Emily Thorsley",
+  "occupation_and_origin": "An administrative assistant from Seattle, Washington...",
+  "photo": "players/EmilyThorsleySeason25.jpg",
+  "hometown_howdy": "Hey, Seattle.  I'm Emily Thorsley.  Grab a grande soy no-whip white mocha and watch me on Jeopardy! [Season 24]\n\nHey, Seattle. I'm defending champion Emily Thorsley. Watch me go for win number two on Jeopardy! [Season 25]",
+  "career_summary": "Season 24 1-time champion: $29,800 + $1,000.",
+  "stats_href": "showplayerstats.php?player_id=5162",
+  "games": [
+    {
+      "episode_number": 5516,
+      "taped_date": "2008-07-15",
+      "air_date": "2008-09-08",
+      "contestants": [
+        "Emily Thorsley",
+        "Greg Lindsay",
+        "Kurt Davies"
+      ],
+      "href": "showgame.php?game_id=2672",
+      "game_id": 2672,
+      "note": "First game of Season 25. New title graphics. New theme...",
+      "returning_champion": null,
+      "tournament_context": null
+    },
+    {
+      "episode_number": 5515,
+      "taped_date": "2008-04-23",
+      "air_date": "2008-07-25",
+      "contestants": [
+        "Mark Wales",
+        "Matt Heimer",
+        "Emily Thorsley"
+      ],
+      "href": "showgame.php?game_id=2581",
+      "game_id": 2581,
+      "note": "Mark Wales game 6.\nLast game of Season 24.",
+      "returning_champion": {
+        "name": "Mark Wales",
+        "game_number": 6
+      },
+      "tournament_context": null
+    }
+  ]
+}

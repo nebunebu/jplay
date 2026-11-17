@@ -1,0 +1,3798 @@
+[
+  {
+    "episode_number": 9600,
+    "taped_date": "2026-06-02",
+    "air_date": "2026-07-03",
+    "contestants": [
+      "Caleb Groen",
+      "Derek Vance",
+      "Amber Born"
+    ],
+    "href": "showgame.php?game_id=9489",
+    "game_id": 9489,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9599,
+    "taped_date": "2026-06-02",
+    "air_date": "2026-07-02",
+    "contestants": [
+      "Richard Nguyen",
+      "Caleb Groen",
+      "Andy Briseño"
+    ],
+    "href": "showgame.php?game_id=9488",
+    "game_id": 9488,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9598,
+    "taped_date": "2026-06-02",
+    "air_date": "2026-07-01",
+    "contestants": [
+      "Richard Nguyen",
+      "Robyn Masella",
+      "Ben Crockett"
+    ],
+    "href": "showgame.php?game_id=9487",
+    "game_id": 9487,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9597,
+    "taped_date": "2026-06-02",
+    "air_date": "2026-06-30",
+    "contestants": [
+      "Adam Remsen",
+      "Richard Nguyen",
+      "Mandy Moreno"
+    ],
+    "href": "showgame.php?game_id=9486",
+    "game_id": 9486,
+    "note": "Adam Remsen game 13.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 13
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9596,
+    "taped_date": "2026-06-02",
+    "air_date": "2026-06-29",
+    "contestants": [
+      "Adam Remsen",
+      "Jeff Price",
+      "Sarah Streicher"
+    ],
+    "href": "showgame.php?game_id=9485",
+    "game_id": 9485,
+    "note": "Adam Remsen game 12.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 12
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9595,
+    "taped_date": "2026-04-22",
+    "air_date": "2026-06-26",
+    "contestants": [
+      "Adam Remsen",
+      "Kristin Warner",
+      "Clay Stallworth"
+    ],
+    "href": "showgame.php?game_id=9484",
+    "game_id": 9484,
+    "note": "Adam Remsen game 11. Memorial cards for Jeopardy! staffer Kyra...",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 11
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9594,
+    "taped_date": "2026-04-22",
+    "air_date": "2026-06-25",
+    "contestants": [
+      "Adam Remsen",
+      "Kate Raven",
+      "Derek Lombardi"
+    ],
+    "href": "showgame.php?game_id=9483",
+    "game_id": 9483,
+    "note": "Adam Remsen game 10.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 10
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9593,
+    "taped_date": "2026-04-22",
+    "air_date": "2026-06-24",
+    "contestants": [
+      "Adam Remsen",
+      "Maria Sebastian",
+      "Wayne Kobylinski"
+    ],
+    "href": "showgame.php?game_id=9482",
+    "game_id": 9482,
+    "note": "Adam Remsen game 9.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 9
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9592,
+    "taped_date": "2026-04-22",
+    "air_date": "2026-06-23",
+    "contestants": [
+      "Adam Remsen",
+      "Sarah Michel",
+      "Joey Tebben"
+    ],
+    "href": "showgame.php?game_id=9481",
+    "game_id": 9481,
+    "note": "Adam Remsen game 8.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9591,
+    "taped_date": "2026-04-22",
+    "air_date": "2026-06-22",
+    "contestants": [
+      "Adam Remsen",
+      "Kyla Wall-Polin",
+      "Carlos Cea"
+    ],
+    "href": "showgame.php?game_id=9480",
+    "game_id": 9480,
+    "note": "Adam Remsen game 7.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9590,
+    "taped_date": "2026-04-21",
+    "air_date": "2026-06-19",
+    "contestants": [
+      "Adam Remsen",
+      "Jacob Ross-Ewart",
+      "Deidre Purcell"
+    ],
+    "href": "showgame.php?game_id=9479",
+    "game_id": 9479,
+    "note": "Adam Remsen game 6.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9589,
+    "taped_date": "2026-04-21",
+    "air_date": "2026-06-18",
+    "contestants": [
+      "Adam Remsen",
+      "Nora Inman",
+      "Tyler Stevenson"
+    ],
+    "href": "showgame.php?game_id=9478",
+    "game_id": 9478,
+    "note": "Adam Remsen game 5.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9588,
+    "taped_date": "2026-04-21",
+    "air_date": "2026-06-17",
+    "contestants": [
+      "Adam Remsen",
+      "Matt Fink",
+      "Carolyn Bavington"
+    ],
+    "href": "showgame.php?game_id=9477",
+    "game_id": 9477,
+    "note": "Adam Remsen game 4.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9587,
+    "taped_date": "2026-04-21",
+    "air_date": "2026-06-16",
+    "contestants": [
+      "Adam Remsen",
+      "Nabil Rahman",
+      "Sarah McCleskey"
+    ],
+    "href": "showgame.php?game_id=9476",
+    "game_id": 9476,
+    "note": "Adam Remsen game 3.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9586,
+    "taped_date": "2026-04-21",
+    "air_date": "2026-06-15",
+    "contestants": [
+      "Adam Remsen",
+      "Sue Barndt",
+      "Benjy Malings"
+    ],
+    "href": "showgame.php?game_id=9475",
+    "game_id": 9475,
+    "note": "Adam Remsen game 2.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9585,
+    "taped_date": "2026-04-16",
+    "air_date": "2026-06-12",
+    "contestants": [
+      "Matt Wheeler",
+      "Erin Schor",
+      "Adam Remsen"
+    ],
+    "href": "showgame.php?game_id=9474",
+    "game_id": 9474,
+    "note": "Adam Remsen game 1.",
+    "returning_champion": {
+      "name": "Adam Remsen",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9584,
+    "taped_date": "2026-04-16",
+    "air_date": "2026-06-11",
+    "contestants": [
+      "Katelyn Mueller-McLean",
+      "Danya Granado",
+      "Matt Wheeler"
+    ],
+    "href": "showgame.php?game_id=9473",
+    "game_id": 9473,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9583,
+    "taped_date": "2026-04-16",
+    "air_date": "2026-06-10",
+    "contestants": [
+      "Dan Laine",
+      "AJ Maroney",
+      "Katelyn Mueller-McLean"
+    ],
+    "href": "showgame.php?game_id=9472",
+    "game_id": 9472,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9582,
+    "taped_date": "2026-04-16",
+    "air_date": "2026-06-09",
+    "contestants": [
+      "Peter McFerrin",
+      "Wilson Li",
+      "Dan Laine"
+    ],
+    "href": "showgame.php?game_id=9471",
+    "game_id": 9471,
+    "note": "Peter McFerrin game 7.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9581,
+    "taped_date": "2026-04-16",
+    "air_date": "2026-06-08",
+    "contestants": [
+      "Peter McFerrin",
+      "Alejandro Sobalvarro",
+      "Kaylea Bowers"
+    ],
+    "href": "showgame.php?game_id=9470",
+    "game_id": 9470,
+    "note": "Peter McFerrin game 6.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9580,
+    "taped_date": "2026-04-15",
+    "air_date": "2026-06-05",
+    "contestants": [
+      "Peter McFerrin",
+      "Jackie Goncalves",
+      "Seth McElroy"
+    ],
+    "href": "showgame.php?game_id=9469",
+    "game_id": 9469,
+    "note": "Peter McFerrin game 5.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9579,
+    "taped_date": "2026-04-15",
+    "air_date": "2026-06-04",
+    "contestants": [
+      "Peter McFerrin",
+      "Webster Guan",
+      "Susan Moskop"
+    ],
+    "href": "showgame.php?game_id=9468",
+    "game_id": 9468,
+    "note": "Peter McFerrin game 4.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9578,
+    "taped_date": "2026-04-15",
+    "air_date": "2026-06-03",
+    "contestants": [
+      "Peter McFerrin",
+      "Gil Hamel",
+      "Gabriel Berkowitz"
+    ],
+    "href": "showgame.php?game_id=9467",
+    "game_id": 9467,
+    "note": "Peter McFerrin game 3.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9577,
+    "taped_date": "2026-04-15",
+    "air_date": "2026-06-02",
+    "contestants": [
+      "Peter McFerrin",
+      "Savannah Madeira",
+      "Alex Reyes"
+    ],
+    "href": "showgame.php?game_id=9466",
+    "game_id": 9466,
+    "note": "Peter McFerrin game 2.",
+    "returning_champion": {
+      "name": "Peter McFerrin",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9576,
+    "taped_date": "2026-04-15",
+    "air_date": "2026-06-01",
+    "contestants": [
+      "Chris D'Angelo",
+      "Peter McFerrin",
+      "Camryn Bell"
+    ],
+    "href": "showgame.php?game_id=9465",
+    "game_id": 9465,
+    "note": "Chris D'Angelo game 9.\nPeter McFerrin game 1.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 9
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9575,
+    "taped_date": "2026-04-14",
+    "air_date": "2026-05-29",
+    "contestants": [
+      "Chris D'Angelo",
+      "Lili Driggs",
+      "Matt Patrick"
+    ],
+    "href": "showgame.php?game_id=9464",
+    "game_id": 9464,
+    "note": "Chris D'Angelo game 8.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9574,
+    "taped_date": "2026-04-14",
+    "air_date": "2026-05-28",
+    "contestants": [
+      "Chris D'Angelo",
+      "Ariel Epstein",
+      "Ken Bloom"
+    ],
+    "href": "showgame.php?game_id=9463",
+    "game_id": 9463,
+    "note": "Chris D'Angelo game 7.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9573,
+    "taped_date": "2026-04-14",
+    "air_date": "2026-05-27",
+    "contestants": [
+      "Chris D'Angelo",
+      "Rachel Hoke",
+      "J.R. Scott"
+    ],
+    "href": "showgame.php?game_id=9462",
+    "game_id": 9462,
+    "note": "Chris D'Angelo game 6.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9572,
+    "taped_date": "2026-04-14",
+    "air_date": "2026-05-26",
+    "contestants": [
+      "Chris D'Angelo",
+      "Chenfei Lu",
+      "Rebecca Joseph"
+    ],
+    "href": "showgame.php?game_id=9461",
+    "game_id": 9461,
+    "note": "Chris D'Angelo game 5.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9571,
+    "taped_date": "2026-04-14",
+    "air_date": "2026-05-25",
+    "contestants": [
+      "Chris D'Angelo",
+      "Veronica Matthews",
+      "Jack Kelly"
+    ],
+    "href": "showgame.php?game_id=9460",
+    "game_id": 9460,
+    "note": "Chris D'Angelo game 4.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9570,
+    "taped_date": "2026-03-17",
+    "air_date": "2026-05-22",
+    "contestants": [
+      "Chris D'Angelo",
+      "Mary Morris",
+      "Jeff Weyhmiller"
+    ],
+    "href": "showgame.php?game_id=9459",
+    "game_id": 9459,
+    "note": "Chris D'Angelo game 3.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9569,
+    "taped_date": "2026-03-17",
+    "air_date": "2026-05-21",
+    "contestants": [
+      "Chris D'Angelo",
+      "Sidney Elie-Pierre",
+      "Liz Guinn"
+    ],
+    "href": "showgame.php?game_id=9458",
+    "game_id": 9458,
+    "note": "Chris D'Angelo game 2.",
+    "returning_champion": {
+      "name": "Chris D'Angelo",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9568,
+    "taped_date": "2026-03-17",
+    "air_date": "2026-05-20",
+    "contestants": [
+      "Tristan Williams",
+      "Allegra Rosenberg",
+      "Chris D'Angelo"
+    ],
+    "href": "showgame.php?game_id=9457",
+    "game_id": 9457,
+    "note": "Tristan Williams game 11.\nChris D'Angelo game 1.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 11
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9567,
+    "taped_date": "2026-03-17",
+    "air_date": "2026-05-19",
+    "contestants": [
+      "Tristan Williams",
+      "Rose Sloan",
+      "Sunil Hebbar"
+    ],
+    "href": "showgame.php?game_id=9456",
+    "game_id": 9456,
+    "note": "Tristan Williams game 10.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 10
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9566,
+    "taped_date": "2026-03-17",
+    "air_date": "2026-05-18",
+    "contestants": [
+      "Tristan Williams",
+      "Amy Dewey",
+      "Thomas Trovato"
+    ],
+    "href": "showgame.php?game_id=9455",
+    "game_id": 9455,
+    "note": "Tristan Williams game 9.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 9
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9565,
+    "taped_date": "2026-03-16",
+    "air_date": "2026-05-15",
+    "contestants": [
+      "Tristan Williams",
+      "Chayce Griffith",
+      "Valerie Fulton"
+    ],
+    "href": "showgame.php?game_id=9453",
+    "game_id": 9453,
+    "note": "Tristan Williams game 8.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9564,
+    "taped_date": "2026-03-16",
+    "air_date": "2026-05-14",
+    "contestants": [
+      "Tristan Williams",
+      "Nishi Kantamneni",
+      "Anne Benjaminson"
+    ],
+    "href": "showgame.php?game_id=9451",
+    "game_id": 9451,
+    "note": "Tristan Williams game 7.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9563,
+    "taped_date": "2026-03-16",
+    "air_date": "2026-05-13",
+    "contestants": [
+      "Tristan Williams",
+      "Bridget Palmer",
+      "Kyle Li"
+    ],
+    "href": "showgame.php?game_id=9449",
+    "game_id": 9449,
+    "note": "Tristan Williams game 6.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9562,
+    "taped_date": "2026-03-16",
+    "air_date": "2026-05-12",
+    "contestants": [
+      "Tristan Williams",
+      "Laurel Gilmer",
+      "Will Thornton"
+    ],
+    "href": "showgame.php?game_id=9447",
+    "game_id": 9447,
+    "note": "Tristan Williams game 5.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9561,
+    "taped_date": "2026-03-16",
+    "air_date": "2026-05-11",
+    "contestants": [
+      "Tristan Williams",
+      "Steve Greene",
+      "Jessica Doverspike"
+    ],
+    "href": "showgame.php?game_id=9446",
+    "game_id": 9446,
+    "note": "Tristan Williams game 4.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9560,
+    "taped_date": "2026-03-10",
+    "air_date": "2026-05-08",
+    "contestants": [
+      "Tristan Williams",
+      "Natalie Oyler-Lusco",
+      "Bill Bogan"
+    ],
+    "href": "showgame.php?game_id=9444",
+    "game_id": 9444,
+    "note": "Tristan Williams game 3.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9559,
+    "taped_date": "2026-03-10",
+    "air_date": "2026-05-07",
+    "contestants": [
+      "Tristan Williams",
+      "Helen Yoas",
+      "Robert Yan"
+    ],
+    "href": "showgame.php?game_id=9443",
+    "game_id": 9443,
+    "note": "Tristan Williams game 2.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9558,
+    "taped_date": "2026-03-10",
+    "air_date": "2026-05-06",
+    "contestants": [
+      "Shannon Crisenbery",
+      "Tristan Williams",
+      "Lauren Black"
+    ],
+    "href": "showgame.php?game_id=9442",
+    "game_id": 9442,
+    "note": "Tristan Williams game 1.",
+    "returning_champion": {
+      "name": "Tristan Williams",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9557,
+    "taped_date": "2026-03-10",
+    "air_date": "2026-05-05",
+    "contestants": [
+      "Madeline Kaplan",
+      "Jeremy Roberts",
+      "Shannon Crisenbery"
+    ],
+    "href": "showgame.php?game_id=9441",
+    "game_id": 9441,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9556,
+    "taped_date": "2026-03-10",
+    "air_date": "2026-05-04",
+    "contestants": [
+      "Stephanie Perkins",
+      "Matt Davis",
+      "Madeline Kaplan"
+    ],
+    "href": "showgame.php?game_id=9440",
+    "game_id": 9440,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9555,
+    "taped_date": "2026-03-09",
+    "air_date": "2026-05-01",
+    "contestants": [
+      "Kate Brody",
+      "Harsha Hebbale",
+      "Stephanie Perkins"
+    ],
+    "href": "showgame.php?game_id=9438",
+    "game_id": 9438,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9554,
+    "taped_date": "2026-03-09",
+    "air_date": "2026-04-30",
+    "contestants": [
+      "Greg Shahade",
+      "Derek Kaufman",
+      "Kate Brody"
+    ],
+    "href": "showgame.php?game_id=9437",
+    "game_id": 9437,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9553,
+    "taped_date": "2026-03-09",
+    "air_date": "2026-04-29",
+    "contestants": [
+      "Greg Shahade",
+      "Ian Samson",
+      "Beth Orlansky"
+    ],
+    "href": "showgame.php?game_id=9436",
+    "game_id": 9436,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9552,
+    "taped_date": "2026-03-09",
+    "air_date": "2026-04-28",
+    "contestants": [
+      "Greg Shahade",
+      "Alice Jiang",
+      "Chris Argento"
+    ],
+    "href": "showgame.php?game_id=9435",
+    "game_id": 9435,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9551,
+    "taped_date": "2026-03-09",
+    "air_date": "2026-04-27",
+    "contestants": [
+      "Jamie Ding",
+      "Katrina Puckett",
+      "Greg Shahade"
+    ],
+    "href": "showgame.php?game_id=9434",
+    "game_id": 9434,
+    "note": "Jamie Ding game 32.\nGreg Shahade ends Jamie's streak.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 32
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9550,
+    "taped_date": "2026-02-26",
+    "air_date": "2026-04-24",
+    "contestants": [
+      "Jamie Ding",
+      "Zach Pollock",
+      "Nicco Martinez"
+    ],
+    "href": "showgame.php?game_id=9433",
+    "game_id": 9433,
+    "note": "Jamie Ding game 31.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 31
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9549,
+    "taped_date": "2026-02-26",
+    "air_date": "2026-04-23",
+    "contestants": [
+      "Jamie Ding",
+      "Leighanna Mixter",
+      "Patrick Nolan"
+    ],
+    "href": "showgame.php?game_id=9432",
+    "game_id": 9432,
+    "note": "Jamie Ding game 30.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 30
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9548,
+    "taped_date": "2026-02-26",
+    "air_date": "2026-04-22",
+    "contestants": [
+      "Jamie Ding",
+      "Suzanne Perla Blank",
+      "Ruey Yen"
+    ],
+    "href": "showgame.php?game_id=9431",
+    "game_id": 9431,
+    "note": "Jamie Ding game 29.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 29
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9547,
+    "taped_date": "2026-02-26",
+    "air_date": "2026-04-21",
+    "contestants": [
+      "Jamie Ding",
+      "Lydia Sekscenski",
+      "Max Ernst"
+    ],
+    "href": "showgame.php?game_id=9430",
+    "game_id": 9430,
+    "note": "Jamie Ding game 28.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 28
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9546,
+    "taped_date": "2026-02-26",
+    "air_date": "2026-04-20",
+    "contestants": [
+      "Jamie Ding",
+      "Caleb Phillips",
+      "Caroline Coughlin"
+    ],
+    "href": "showgame.php?game_id=9429",
+    "game_id": 9429,
+    "note": "Jamie Ding game 27.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 27
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9545,
+    "taped_date": "2026-02-25",
+    "air_date": "2026-04-17",
+    "contestants": [
+      "Jamie Ding",
+      "Tini Howard",
+      "Taotao Zhang"
+    ],
+    "href": "showgame.php?game_id=9427",
+    "game_id": 9427,
+    "note": "Jamie Ding game 26.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 26
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9544,
+    "taped_date": "2026-02-25",
+    "air_date": "2026-04-16",
+    "contestants": [
+      "Jamie Ding",
+      "Andrew Younger",
+      "Erin Adams"
+    ],
+    "href": "showgame.php?game_id=9426",
+    "game_id": 9426,
+    "note": "Jamie Ding game 25.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 25
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9543,
+    "taped_date": "2026-02-25",
+    "air_date": "2026-04-15",
+    "contestants": [
+      "Jamie Ding",
+      "Kim Elliott",
+      "Bill Page"
+    ],
+    "href": "showgame.php?game_id=9425",
+    "game_id": 9425,
+    "note": "Jamie Ding game 24.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 24
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9542,
+    "taped_date": "2026-02-25",
+    "air_date": "2026-04-14",
+    "contestants": [
+      "Jamie Ding",
+      "Iain Carpenter",
+      "Stephanie Rice-Hoffner"
+    ],
+    "href": "showgame.php?game_id=9424",
+    "game_id": 9424,
+    "note": "Jamie Ding game 23.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 23
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9541,
+    "taped_date": "2026-02-25",
+    "air_date": "2026-04-13",
+    "contestants": [
+      "Jamie Ding",
+      "Erik Bubolz",
+      "Catherine Hoffman"
+    ],
+    "href": "showgame.php?game_id=9423",
+    "game_id": 9423,
+    "note": "Jamie Ding game 22.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 22
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9540,
+    "taped_date": "2026-02-24",
+    "air_date": "2026-04-10",
+    "contestants": [
+      "Jamie Ding",
+      "Kathi Fitzgerald",
+      "Xaque Williams"
+    ],
+    "href": "showgame.php?game_id=9422",
+    "game_id": 9422,
+    "note": "Jamie Ding game 21.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 21
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9539,
+    "taped_date": "2026-02-24",
+    "air_date": "2026-04-09",
+    "contestants": [
+      "Jamie Ding",
+      "Alexandra Leith",
+      "Prithish David"
+    ],
+    "href": "showgame.php?game_id=9421",
+    "game_id": 9421,
+    "note": "Jamie Ding game 20.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 20
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9538,
+    "taped_date": "2026-02-24",
+    "air_date": "2026-04-08",
+    "contestants": [
+      "Jamie Ding",
+      "Erica Wagner",
+      "Dominex Kovacs"
+    ],
+    "href": "showgame.php?game_id=9420",
+    "game_id": 9420,
+    "note": "Jamie Ding game 19.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 19
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9537,
+    "taped_date": "2026-02-24",
+    "air_date": "2026-04-07",
+    "contestants": [
+      "Jamie Ding",
+      "Divya Srijay",
+      "Kevin Iannone"
+    ],
+    "href": "showgame.php?game_id=9419",
+    "game_id": 9419,
+    "note": "Jamie Ding game 18.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 18
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9536,
+    "taped_date": "2026-02-24",
+    "air_date": "2026-04-06",
+    "contestants": [
+      "Jamie Ding",
+      "Mikey Hlebasko",
+      "Maggie Faucher"
+    ],
+    "href": "showgame.php?game_id=9418",
+    "game_id": 9418,
+    "note": "Jamie Ding game 17.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 17
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9535,
+    "taped_date": "2026-02-23",
+    "air_date": "2026-04-03",
+    "contestants": [
+      "Jamie Ding",
+      "Emmett Laurie",
+      "Robyn Horn"
+    ],
+    "href": "showgame.php?game_id=9417",
+    "game_id": 9417,
+    "note": "Jamie Ding game 16.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 16
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9534,
+    "taped_date": "2026-02-23",
+    "air_date": "2026-04-02",
+    "contestants": [
+      "Jamie Ding",
+      "Nikki Svetov",
+      "Brian Chu"
+    ],
+    "href": "showgame.php?game_id=9416",
+    "game_id": 9416,
+    "note": "Jamie Ding game 15.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 15
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9533,
+    "taped_date": "2026-02-23",
+    "air_date": "2026-04-01",
+    "contestants": [
+      "Jamie Ding",
+      "Jessica Frankenfield",
+      "George Thomas"
+    ],
+    "href": "showgame.php?game_id=9415",
+    "game_id": 9415,
+    "note": "Jamie Ding game 14.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 14
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9532,
+    "taped_date": "2026-02-23",
+    "air_date": "2026-03-31",
+    "contestants": [
+      "Jamie Ding",
+      "Seth Politano",
+      "Kimberly Ayers"
+    ],
+    "href": "showgame.php?game_id=9414",
+    "game_id": 9414,
+    "note": "Jamie Ding game 13.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 13
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9531,
+    "taped_date": "2026-02-23",
+    "air_date": "2026-03-30",
+    "contestants": [
+      "Jamie Ding",
+      "Fr. Paul Baker",
+      "Barbara McIntyre"
+    ],
+    "href": "showgame.php?game_id=9413",
+    "game_id": 9413,
+    "note": "Jamie Ding game 12.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 12
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9530,
+    "taped_date": "2026-02-12",
+    "air_date": "2026-03-27",
+    "contestants": [
+      "Jamie Ding",
+      "Brent Wilson",
+      "Tanya Iyer"
+    ],
+    "href": "showgame.php?game_id=9411",
+    "game_id": 9411,
+    "note": "Jamie Ding game 11.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 11
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9529,
+    "taped_date": "2026-02-12",
+    "air_date": "2026-03-26",
+    "contestants": [
+      "Jamie Ding",
+      "Donna Vaughan Singer",
+      "Jeff Bienstock"
+    ],
+    "href": "showgame.php?game_id=9410",
+    "game_id": 9410,
+    "note": "Jamie Ding game 10.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 10
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9528,
+    "taped_date": "2026-02-12",
+    "air_date": "2026-03-25",
+    "contestants": [
+      "Jamie Ding",
+      "Thayer Warne",
+      "Tallulah Pollard"
+    ],
+    "href": "showgame.php?game_id=9409",
+    "game_id": 9409,
+    "note": "Jamie Ding game 9.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 9
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9527,
+    "taped_date": "2026-02-12",
+    "air_date": "2026-03-24",
+    "contestants": [
+      "Jamie Ding",
+      "Abigail Marcolini",
+      "Pranit Nanda"
+    ],
+    "href": "showgame.php?game_id=9408",
+    "game_id": 9408,
+    "note": "Jamie Ding game 8.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9526,
+    "taped_date": "2026-02-12",
+    "air_date": "2026-03-23",
+    "contestants": [
+      "Jamie Ding",
+      "Max Genecov",
+      "Erin Howard"
+    ],
+    "href": "showgame.php?game_id=9407",
+    "game_id": 9407,
+    "note": "Jamie Ding game 7.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9525,
+    "taped_date": "2026-02-11",
+    "air_date": "2026-03-20",
+    "contestants": [
+      "Jamie Ding",
+      "Sinecio Morales",
+      "David Ley"
+    ],
+    "href": "showgame.php?game_id=9405",
+    "game_id": 9405,
+    "note": "Jamie Ding game 6.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9524,
+    "taped_date": "2026-02-11",
+    "air_date": "2026-03-19",
+    "contestants": [
+      "Jamie Ding",
+      "Jason Snell",
+      "Jordan Haynie Ware"
+    ],
+    "href": "showgame.php?game_id=9404",
+    "game_id": 9404,
+    "note": "Jamie Ding game 5.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9523,
+    "taped_date": "2026-02-11",
+    "air_date": "2026-03-18",
+    "contestants": [
+      "Jamie Ding",
+      "Luke Minton",
+      "Kamilah Tisdale"
+    ],
+    "href": "showgame.php?game_id=9403",
+    "game_id": 9403,
+    "note": "Jamie Ding game 4.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9522,
+    "taped_date": "2026-02-11",
+    "air_date": "2026-03-17",
+    "contestants": [
+      "Jamie Ding",
+      "Carman Nareau",
+      "Aidan O'Connell"
+    ],
+    "href": "showgame.php?game_id=9402",
+    "game_id": 9402,
+    "note": "Jamie Ding game 3. Jamie Ding sets a new record...",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9521,
+    "taped_date": "2026-02-11",
+    "air_date": "2026-03-16",
+    "contestants": [
+      "Jamie Ding",
+      "Shannon Thomas",
+      "Andrew Ford"
+    ],
+    "href": "showgame.php?game_id=9401",
+    "game_id": 9401,
+    "note": "Jamie Ding game 2.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9520,
+    "taped_date": "2026-02-10",
+    "air_date": "2026-03-13",
+    "contestants": [
+      "Luke Henson",
+      "Jamie Ding",
+      "Robin Richardson"
+    ],
+    "href": "showgame.php?game_id=9399",
+    "game_id": 9399,
+    "note": "Jamie Ding game 1.",
+    "returning_champion": {
+      "name": "Jamie Ding",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9519,
+    "taped_date": "2026-02-10",
+    "air_date": "2026-03-12",
+    "contestants": [
+      "James Denison",
+      "Luke Henson",
+      "Lydia Cawley"
+    ],
+    "href": "showgame.php?game_id=9398",
+    "game_id": 9398,
+    "note": "James Denison game 5.",
+    "returning_champion": {
+      "name": "James Denison",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9518,
+    "taped_date": "2026-02-10",
+    "air_date": "2026-03-11",
+    "contestants": [
+      "James Denison",
+      "Chris Kearney",
+      "Molly Hackett"
+    ],
+    "href": "showgame.php?game_id=9397",
+    "game_id": 9397,
+    "note": "James Denison game 4.",
+    "returning_champion": {
+      "name": "James Denison",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9517,
+    "taped_date": "2026-02-10",
+    "air_date": "2026-03-10",
+    "contestants": [
+      "James Denison",
+      "Tim Swankey",
+      "Sapana Vora"
+    ],
+    "href": "showgame.php?game_id=9396",
+    "game_id": 9396,
+    "note": "James Denison game 3.",
+    "returning_champion": {
+      "name": "James Denison",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9516,
+    "taped_date": "2026-02-10",
+    "air_date": "2026-03-09",
+    "contestants": [
+      "James Denison",
+      "Katie Hoppenjans",
+      "Jonathan Rosales"
+    ],
+    "href": "showgame.php?game_id=9395",
+    "game_id": 9395,
+    "note": "James Denison game 2.",
+    "returning_champion": {
+      "name": "James Denison",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9515,
+    "taped_date": "2026-02-03",
+    "air_date": "2026-03-06",
+    "contestants": [
+      "Cory Aiello",
+      "James Denison",
+      "Heidi Schmechel"
+    ],
+    "href": "showgame.php?game_id=9394",
+    "game_id": 9394,
+    "note": "James Denison game 1.",
+    "returning_champion": {
+      "name": "James Denison",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9514,
+    "taped_date": "2026-02-03",
+    "air_date": "2026-03-05",
+    "contestants": [
+      "Quentin Powers",
+      "Cory Aiello",
+      "Nishal Shah"
+    ],
+    "href": "showgame.php?game_id=9393",
+    "game_id": 9393,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9513,
+    "taped_date": "2026-02-03",
+    "air_date": "2026-03-04",
+    "contestants": [
+      "Quentin Powers",
+      "Nannono Zirimu",
+      "Aahil Makhani"
+    ],
+    "href": "showgame.php?game_id=9392",
+    "game_id": 9392,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9512,
+    "taped_date": "2026-02-03",
+    "air_date": "2026-03-03",
+    "contestants": [
+      "Noah Hamilton",
+      "Quentin Powers",
+      "Monterey Salka"
+    ],
+    "href": "showgame.php?game_id=9391",
+    "game_id": 9391,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9511,
+    "taped_date": "2026-02-03",
+    "air_date": "2026-03-02",
+    "contestants": [
+      "Diana Miller",
+      "Marissa Klein",
+      "Noah Hamilton"
+    ],
+    "href": "showgame.php?game_id=9390",
+    "game_id": 9390,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9510,
+    "taped_date": "2026-02-02",
+    "air_date": "2026-02-27",
+    "contestants": [
+      "James Hirsh",
+      "Diana Miller",
+      "Tim Leung"
+    ],
+    "href": "showgame.php?game_id=9389",
+    "game_id": 9389,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9509,
+    "taped_date": "2026-02-02",
+    "air_date": "2026-02-26",
+    "contestants": [
+      "James Hirsh",
+      "Elizabeth Hurd",
+      "Patrick Creech"
+    ],
+    "href": "showgame.php?game_id=9388",
+    "game_id": 9388,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9508,
+    "taped_date": "2026-02-02",
+    "air_date": "2026-02-25",
+    "contestants": [
+      "James Hirsh",
+      "Kevin Kodama",
+      "Lauren Vincent"
+    ],
+    "href": "showgame.php?game_id=9387",
+    "game_id": 9387,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9507,
+    "taped_date": "2026-02-02",
+    "air_date": "2026-02-24",
+    "contestants": [
+      "Trey Hart",
+      "James Hirsh",
+      "Christa Fidel"
+    ],
+    "href": "showgame.php?game_id=9386",
+    "game_id": 9386,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9506,
+    "taped_date": "2026-02-02",
+    "air_date": "2026-02-23",
+    "contestants": [
+      "Trey Hart",
+      "Zach Johnson-Dunlop",
+      "Katie Pach"
+    ],
+    "href": "showgame.php?game_id=9385",
+    "game_id": 9385,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9505,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-20",
+    "contestants": [
+      "Roger Craig",
+      "Long Nguyen",
+      "Andrew He"
+    ],
+    "href": "showgame.php?game_id=9384",
+    "game_id": 9384,
+    "note": "2026 Jeopardy! Invitational Tournament final game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "final",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9504,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-19",
+    "contestants": [
+      "Roger Craig",
+      "Long Nguyen",
+      "Andrew He"
+    ],
+    "href": "showgame.php?game_id=9383",
+    "game_id": 9383,
+    "note": "2026 Jeopardy! Invitational Tournament final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "final",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9503,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-18",
+    "contestants": [
+      "Roger Craig",
+      "Long Nguyen",
+      "Andrew He"
+    ],
+    "href": "showgame.php?game_id=9382",
+    "game_id": 9382,
+    "note": "2026 Jeopardy! Invitational Tournament final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "final",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9502,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-17",
+    "contestants": [
+      "Long Nguyen",
+      "Karen Farrell",
+      "Drew Goins"
+    ],
+    "href": "showgame.php?game_id=9381",
+    "game_id": 9381,
+    "note": "2026 Jeopardy! Invitational Tournament semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9501,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-16",
+    "contestants": [
+      "Matt Amodio",
+      "Andrew He",
+      "Alison Betts"
+    ],
+    "href": "showgame.php?game_id=9380",
+    "game_id": 9380,
+    "note": "2026 Jeopardy! Invitational Tournament semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9500,
+    "taped_date": "2026-01-27",
+    "air_date": "2026-02-13",
+    "contestants": [
+      "Roger Craig",
+      "Jen Giles",
+      "Drew Basile"
+    ],
+    "href": "showgame.php?game_id=9379",
+    "game_id": 9379,
+    "note": "2026 Jeopardy! Invitational Tournament semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9499,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-12",
+    "contestants": [
+      "Long Nguyen",
+      "Will Yancey",
+      "Adriana Harmeyer"
+    ],
+    "href": "showgame.php?game_id=9378",
+    "game_id": 9378,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 9498,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-11",
+    "contestants": [
+      "Josh Hill",
+      "Alison Betts",
+      "Isaac Hirsch"
+    ],
+    "href": "showgame.php?game_id=9377",
+    "game_id": 9377,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 9497,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-10",
+    "contestants": [
+      "Mehal Shah",
+      "Jen Giles",
+      "Andrew He"
+    ],
+    "href": "showgame.php?game_id=9376",
+    "game_id": 9376,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 9496,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-09",
+    "contestants": [
+      "Liz Feltner",
+      "T.L. Cubbage",
+      "Drew Goins"
+    ],
+    "href": "showgame.php?game_id=9375",
+    "game_id": 9375,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9495,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-06",
+    "contestants": [
+      "Eric Ahasic",
+      "Roger Craig",
+      "Veronica Vichit-Vadakan"
+    ],
+    "href": "showgame.php?game_id=9374",
+    "game_id": 9374,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9494,
+    "taped_date": "2026-01-26",
+    "air_date": "2026-02-05",
+    "contestants": [
+      "Matt Amodio",
+      "Drew Basile",
+      "Karen Farrell"
+    ],
+    "href": "showgame.php?game_id=9373",
+    "game_id": 9373,
+    "note": "2026 Jeopardy! Invitational Tournament quarterfinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Jeopardy! Invitational Tournament",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9493,
+    "taped_date": "2025-11-20",
+    "air_date": "2026-02-04",
+    "contestants": [
+      "Scott Riccardi",
+      "Paolo Pasco",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9372",
+    "game_id": 9372,
+    "note": "2026 Tournament of Champions final game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "final",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9492,
+    "taped_date": "2025-11-20",
+    "air_date": "2026-02-03",
+    "contestants": [
+      "Scott Riccardi",
+      "Paolo Pasco",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9371",
+    "game_id": 9371,
+    "note": "2026 Tournament of Champions final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "final",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9491,
+    "taped_date": "2025-11-20",
+    "air_date": "2026-02-02",
+    "contestants": [
+      "Scott Riccardi",
+      "Paolo Pasco",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9370",
+    "game_id": 9370,
+    "note": "2026 Tournament of Champions final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "final",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9490,
+    "taped_date": "2025-11-19",
+    "air_date": "2026-01-30",
+    "contestants": [
+      "Scott Riccardi",
+      "Laura Faddah",
+      "Paolo Pasco"
+    ],
+    "href": "showgame.php?game_id=9369",
+    "game_id": 9369,
+    "note": "2026 Tournament of Champions exhibition game for players with byes...",
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9489,
+    "taped_date": "2025-11-19",
+    "air_date": "2026-01-29",
+    "contestants": [
+      "Paolo Pasco",
+      "Cameron Berry",
+      "Ashley Chan"
+    ],
+    "href": "showgame.php?game_id=9368",
+    "game_id": 9368,
+    "note": "2026 Tournament of Champions semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9488,
+    "taped_date": "2025-11-19",
+    "air_date": "2026-01-28",
+    "contestants": [
+      "Laura Faddah",
+      "Steven Olson",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9367",
+    "game_id": 9367,
+    "note": "2026 Tournament of Champions semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9487,
+    "taped_date": "2025-11-19",
+    "air_date": "2026-01-27",
+    "contestants": [
+      "Scott Riccardi",
+      "Tom Devlin",
+      "Allegra Kuney"
+    ],
+    "href": "showgame.php?game_id=9366",
+    "game_id": 9366,
+    "note": "2026 Tournament of Champions semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9486,
+    "taped_date": "2025-11-19",
+    "air_date": "2026-01-26",
+    "contestants": [
+      "Lisa Ann Walter",
+      "Mike Dawson",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9365",
+    "game_id": 9365,
+    "note": "2026 Tournament of Champions quarterfinal game 6.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 6
+    }
+  },
+  {
+    "episode_number": 9485,
+    "taped_date": "2025-11-18",
+    "air_date": "2026-01-23",
+    "contestants": [
+      "Steven Olson",
+      "Josh Weikert",
+      "Matt Massie"
+    ],
+    "href": "showgame.php?game_id=9364",
+    "game_id": 9364,
+    "note": "2026 Tournament of Champions quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 9484,
+    "taped_date": "2025-11-18",
+    "air_date": "2026-01-22",
+    "contestants": [
+      "Ashley Chan",
+      "W. Kamau Bell",
+      "Alex DeFrank"
+    ],
+    "href": "showgame.php?game_id=9363",
+    "game_id": 9363,
+    "note": "2026 Tournament of Champions quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 9483,
+    "taped_date": "2025-11-18",
+    "air_date": "2026-01-21",
+    "contestants": [
+      "Bryce Wargin",
+      "Cameron Berry",
+      "Ben Ganger"
+    ],
+    "href": "showgame.php?game_id=9362",
+    "game_id": 9362,
+    "note": "2026 Tournament of Champions quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9482,
+    "taped_date": "2025-11-18",
+    "air_date": "2026-01-20",
+    "contestants": [
+      "Andrew Hayes",
+      "Brendan Liaw",
+      "Allegra Kuney"
+    ],
+    "href": "showgame.php?game_id=9361",
+    "game_id": 9361,
+    "note": "2026 Tournament of Champions quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9481,
+    "taped_date": "2025-11-18",
+    "air_date": "2026-01-19",
+    "contestants": [
+      "Liam Starnes",
+      "Tom Devlin",
+      "Aaron Levine"
+    ],
+    "href": "showgame.php?game_id=9360",
+    "game_id": 9360,
+    "note": "2026 Tournament of Champions quarterfinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Tournament of Champions",
+      "round": "quarterfinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9480,
+    "taped_date": "2025-11-07",
+    "air_date": "2026-01-16",
+    "contestants": [
+      "Cameron Berry",
+      "Jonathan Hugendubler",
+      "Stella Trout"
+    ],
+    "href": "showgame.php?game_id=9359",
+    "game_id": 9359,
+    "note": "2026 Champions Wildcard final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9479,
+    "taped_date": "2025-11-07",
+    "air_date": "2026-01-15",
+    "contestants": [
+      "Cameron Berry",
+      "Jonathan Hugendubler",
+      "Stella Trout"
+    ],
+    "href": "showgame.php?game_id=9358",
+    "game_id": 9358,
+    "note": "2026 Champions Wildcard final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9478,
+    "taped_date": "2025-11-07",
+    "air_date": "2026-01-14",
+    "contestants": [
+      "Stella Trout",
+      "Ian Morrison",
+      "Harvey Silikovitz"
+    ],
+    "href": "showgame.php?game_id=9357",
+    "game_id": 9357,
+    "note": "2026 Champions Wildcard semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9477,
+    "taped_date": "2025-11-07",
+    "air_date": "2026-01-13",
+    "contestants": [
+      "Jonathan Hugendubler",
+      "Michelle Tsai",
+      "Bill McKinney"
+    ],
+    "href": "showgame.php?game_id=9356",
+    "game_id": 9356,
+    "note": "2026 Champions Wildcard semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9476,
+    "taped_date": "2025-11-07",
+    "air_date": "2026-01-12",
+    "contestants": [
+      "Ryan Sharpe",
+      "Vickie Talvola",
+      "Cameron Berry"
+    ],
+    "href": "showgame.php?game_id=9355",
+    "game_id": 9355,
+    "note": "2026 Champions Wildcard semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9475,
+    "taped_date": "2025-11-06",
+    "air_date": "2026-01-09",
+    "contestants": [
+      "James Corson",
+      "Ryan Sharpe",
+      "Ian Morrison"
+    ],
+    "href": "showgame.php?game_id=9354",
+    "game_id": 9354,
+    "note": "2026 Champions Wildcard quarterfinal game 5.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 5
+    }
+  },
+  {
+    "episode_number": 9474,
+    "taped_date": "2025-11-06",
+    "air_date": "2026-01-08",
+    "contestants": [
+      "Pete Johnston",
+      "Vickie Talvola",
+      "Jonathan Hugendubler"
+    ],
+    "href": "showgame.php?game_id=9353",
+    "game_id": 9353,
+    "note": "2026 Champions Wildcard quarterfinal game 4.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 4
+    }
+  },
+  {
+    "episode_number": 9473,
+    "taped_date": "2025-11-06",
+    "air_date": "2026-01-07",
+    "contestants": [
+      "Cameron Berry",
+      "Harvey Silikovitz",
+      "Jason Singer"
+    ],
+    "href": "showgame.php?game_id=9352",
+    "game_id": 9352,
+    "note": "2026 Champions Wildcard quarterfinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9472,
+    "taped_date": "2025-11-06",
+    "air_date": "2026-01-06",
+    "contestants": [
+      "Michelle Tsai",
+      "Dave Bond",
+      "Geoff Barnes"
+    ],
+    "href": "showgame.php?game_id=9351",
+    "game_id": 9351,
+    "note": "2026 Champions Wildcard quarterfinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9471,
+    "taped_date": "2025-11-06",
+    "air_date": "2026-01-05",
+    "contestants": [
+      "Stella Trout",
+      "Bill McKinney",
+      "Dargan Ware"
+    ],
+    "href": "showgame.php?game_id=9349",
+    "game_id": 9349,
+    "note": "2026 Champions Wildcard quarterfinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2026 Champions Wildcard",
+      "round": "wildcard",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9470,
+    "taped_date": "2025-11-05",
+    "air_date": "2026-01-02",
+    "contestants": [
+      "Dondi DeMarco",
+      "Abigail Arnold",
+      "Ryan Sharpe"
+    ],
+    "href": "showgame.php?game_id=9348",
+    "game_id": 9348,
+    "note": "2025-2026 Second Chance competition week 3, final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 3,",
+      "round": "final",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9469,
+    "taped_date": "2025-11-05",
+    "air_date": "2026-01-01",
+    "contestants": [
+      "Dondi DeMarco",
+      "Abigail Arnold",
+      "Ryan Sharpe"
+    ],
+    "href": "showgame.php?game_id=9347",
+    "game_id": 9347,
+    "note": "2025-2026 Second Chance competition week 3, final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 3,",
+      "round": "final",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9468,
+    "taped_date": "2025-11-05",
+    "air_date": "2025-12-31",
+    "contestants": [
+      "Ryan Sharpe",
+      "Jenna Hayes",
+      "Dan Puma"
+    ],
+    "href": "showgame.php?game_id=9346",
+    "game_id": 9346,
+    "note": "2025-2026 Second Chance competition week 3, semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 3,",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9467,
+    "taped_date": "2025-11-05",
+    "air_date": "2025-12-30",
+    "contestants": [
+      "Emily Johnson",
+      "Dondi DeMarco",
+      "Ricky Chandak"
+    ],
+    "href": "showgame.php?game_id=9345",
+    "game_id": 9345,
+    "note": "2025-2026 Second Chance competition week 3, semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 3,",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9466,
+    "taped_date": "2025-11-05",
+    "air_date": "2025-12-29",
+    "contestants": [
+      "Keegan Olson",
+      "Abigail Arnold",
+      "Mustafa Hameed"
+    ],
+    "href": "showgame.php?game_id=9344",
+    "game_id": 9344,
+    "note": "2025-2026 Second Chance competition week 3, semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 3,",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9465,
+    "taped_date": "2025-11-04",
+    "air_date": "2025-12-26",
+    "contestants": [
+      "Melanie Hirsch",
+      "Michelle Tsai",
+      "Guy Branum"
+    ],
+    "href": "showgame.php?game_id=9343",
+    "game_id": 9343,
+    "note": "2025-2026 Second Chance competition week 2, final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 2,",
+      "round": "final",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9464,
+    "taped_date": "2025-11-04",
+    "air_date": "2025-12-25",
+    "contestants": [
+      "Melanie Hirsch",
+      "Michelle Tsai",
+      "Guy Branum"
+    ],
+    "href": "showgame.php?game_id=9342",
+    "game_id": 9342,
+    "note": "2025-2026 Second Chance competition week 2, final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 2,",
+      "round": "final",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9463,
+    "taped_date": "2025-11-04",
+    "air_date": "2025-12-24",
+    "contestants": [
+      "Aaron Himmel",
+      "Andrew Wang",
+      "Melanie Hirsch"
+    ],
+    "href": "showgame.php?game_id=9341",
+    "game_id": 9341,
+    "note": "2025-2026 Second Chance competition week 2, semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 2,",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9462,
+    "taped_date": "2025-11-04",
+    "air_date": "2025-12-23",
+    "contestants": [
+      "Bob Callen",
+      "Molly Murray",
+      "Michelle Tsai"
+    ],
+    "href": "showgame.php?game_id=9340",
+    "game_id": 9340,
+    "note": "2025-2026 Second Chance competition week 2, semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 2,",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9461,
+    "taped_date": "2025-11-04",
+    "air_date": "2025-12-22",
+    "contestants": [
+      "Rachael Gray",
+      "Guy Branum",
+      "Jasmine Zhou"
+    ],
+    "href": "showgame.php?game_id=9339",
+    "game_id": 9339,
+    "note": "2025-2026 Second Chance competition week 2, semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 2,",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9460,
+    "taped_date": "2025-11-03",
+    "air_date": "2025-12-19",
+    "contestants": [
+      "Pete Johnston",
+      "Dave Widmayer",
+      "Eugene Huang"
+    ],
+    "href": "showgame.php?game_id=9338",
+    "game_id": 9338,
+    "note": "2025-2026 Second Chance competition week 1, final game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 1,",
+      "round": "final",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9459,
+    "taped_date": "2025-11-03",
+    "air_date": "2025-12-18",
+    "contestants": [
+      "Pete Johnston",
+      "Dave Widmayer",
+      "Eugene Huang"
+    ],
+    "href": "showgame.php?game_id=9337",
+    "game_id": 9337,
+    "note": "2025-2026 Second Chance competition week 1, final game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 1,",
+      "round": "final",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9458,
+    "taped_date": "2025-11-03",
+    "air_date": "2025-12-17",
+    "contestants": [
+      "Pete Johnston",
+      "Allison Willard",
+      "Chris Turner-Neal"
+    ],
+    "href": "showgame.php?game_id=9336",
+    "game_id": 9336,
+    "note": "2025-2026 Second Chance competition week 1, semifinal game 3.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 1,",
+      "round": "semifinal",
+      "game_number": 3
+    }
+  },
+  {
+    "episode_number": 9457,
+    "taped_date": "2025-11-03",
+    "air_date": "2025-12-16",
+    "contestants": [
+      "Dave Widmayer",
+      "Evan Argyle",
+      "Ivanna Lopez"
+    ],
+    "href": "showgame.php?game_id=9335",
+    "game_id": 9335,
+    "note": "2025-2026 Second Chance competition week 1, semifinal game 2.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 1,",
+      "round": "semifinal",
+      "game_number": 2
+    }
+  },
+  {
+    "episode_number": 9456,
+    "taped_date": "2025-11-03",
+    "air_date": "2025-12-15",
+    "contestants": [
+      "Erik Nielsen",
+      "Erin Li",
+      "Eugene Huang"
+    ],
+    "href": "showgame.php?game_id=9334",
+    "game_id": 9334,
+    "note": "2025-2026 Second Chance competition week 1, semifinal game 1.",
+    "returning_champion": null,
+    "tournament_context": {
+      "tournament": "2025-2026 Second Chance competition week 1,",
+      "round": "semifinal",
+      "game_number": 1
+    }
+  },
+  {
+    "episode_number": 9455,
+    "taped_date": "2025-10-29",
+    "air_date": "2025-12-12",
+    "contestants": [
+      "Will Riley",
+      "Trey Hart",
+      "Madelyn Dawson"
+    ],
+    "href": "showgame.php?game_id=9333",
+    "game_id": 9333,
+    "note": "Will Riley game 5.",
+    "returning_champion": {
+      "name": "Will Riley",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9454,
+    "taped_date": "2025-10-29",
+    "air_date": "2025-12-11",
+    "contestants": [
+      "Will Riley",
+      "Jennifer Foote",
+      "Francis Boyle"
+    ],
+    "href": "showgame.php?game_id=9332",
+    "game_id": 9332,
+    "note": "Will Riley game 4.",
+    "returning_champion": {
+      "name": "Will Riley",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9453,
+    "taped_date": "2025-10-29",
+    "air_date": "2025-12-10",
+    "contestants": [
+      "Will Riley",
+      "Chelsea Carter",
+      "Eddie Kass"
+    ],
+    "href": "showgame.php?game_id=9331",
+    "game_id": 9331,
+    "note": "Will Riley game 3.",
+    "returning_champion": {
+      "name": "Will Riley",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9452,
+    "taped_date": "2025-10-29",
+    "air_date": "2025-12-09",
+    "contestants": [
+      "Will Riley",
+      "Steve Riddell",
+      "Jenna LaFleur"
+    ],
+    "href": "showgame.php?game_id=9330",
+    "game_id": 9330,
+    "note": "Will Riley game 2.",
+    "returning_champion": {
+      "name": "Will Riley",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9451,
+    "taped_date": "2025-10-29",
+    "air_date": "2025-12-08",
+    "contestants": [
+      "Ron Lalonde",
+      "Will Riley",
+      "Morgan Lloyd"
+    ],
+    "href": "showgame.php?game_id=9329",
+    "game_id": 9329,
+    "note": "Will Riley game 1.",
+    "returning_champion": {
+      "name": "Will Riley",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9450,
+    "taped_date": "2025-10-28",
+    "air_date": "2025-12-05",
+    "contestants": [
+      "Ron Lalonde",
+      "Youssef Shareef",
+      "Margaret Dunlap"
+    ],
+    "href": "showgame.php?game_id=9328",
+    "game_id": 9328,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9449,
+    "taped_date": "2025-10-28",
+    "air_date": "2025-12-04",
+    "contestants": [
+      "Ron Lalonde",
+      "Andy Luo",
+      "Marie D'Avignon"
+    ],
+    "href": "showgame.php?game_id=9327",
+    "game_id": 9327,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9448,
+    "taped_date": "2025-10-28",
+    "air_date": "2025-12-03",
+    "contestants": [
+      "Libby Jones",
+      "Sarah Murphy",
+      "Ron Lalonde"
+    ],
+    "href": "showgame.php?game_id=9326",
+    "game_id": 9326,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9447,
+    "taped_date": "2025-10-28",
+    "air_date": "2025-12-02",
+    "contestants": [
+      "Libby Jones",
+      "Anne Martyn",
+      "Eli Selzer"
+    ],
+    "href": "showgame.php?game_id=9325",
+    "game_id": 9325,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9446,
+    "taped_date": "2025-10-28",
+    "air_date": "2025-12-01",
+    "contestants": [
+      "Harrison Whitaker",
+      "Brendan Thomas",
+      "Libby Jones"
+    ],
+    "href": "showgame.php?game_id=9324",
+    "game_id": 9324,
+    "note": "Harrison Whitaker game 15.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 15
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9445,
+    "taped_date": "2025-10-21",
+    "air_date": "2025-11-28",
+    "contestants": [
+      "Harrison Whitaker",
+      "Wilder Seitz",
+      "Samantha Meier"
+    ],
+    "href": "showgame.php?game_id=9323",
+    "game_id": 9323,
+    "note": "Harrison Whitaker game 14.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 14
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9444,
+    "taped_date": "2025-10-21",
+    "air_date": "2025-11-27",
+    "contestants": [
+      "Harrison Whitaker",
+      "Nicole Haase",
+      "Paul Wenzel"
+    ],
+    "href": "showgame.php?game_id=9322",
+    "game_id": 9322,
+    "note": "Harrison Whitaker game 13.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 13
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9443,
+    "taped_date": "2025-10-21",
+    "air_date": "2025-11-26",
+    "contestants": [
+      "Harrison Whitaker",
+      "Krish Patel",
+      "Shannon Mastick"
+    ],
+    "href": "showgame.php?game_id=9321",
+    "game_id": 9321,
+    "note": "Harrison Whitaker game 12.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 12
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9442,
+    "taped_date": "2025-10-21",
+    "air_date": "2025-11-25",
+    "contestants": [
+      "Harrison Whitaker",
+      "Emma Passariello",
+      "Lyman Howard"
+    ],
+    "href": "showgame.php?game_id=9320",
+    "game_id": 9320,
+    "note": "Harrison Whitaker game 11.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 11
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9441,
+    "taped_date": "2025-10-21",
+    "air_date": "2025-11-24",
+    "contestants": [
+      "Harrison Whitaker",
+      "Shannon Lawinger",
+      "Michael Kavanagh"
+    ],
+    "href": "showgame.php?game_id=9319",
+    "game_id": 9319,
+    "note": "Harrison Whitaker game 10.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 10
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9440,
+    "taped_date": "2025-10-20",
+    "air_date": "2025-11-21",
+    "contestants": [
+      "Harrison Whitaker",
+      "Jamie Kohlmeier",
+      "Sarah Wylie"
+    ],
+    "href": "showgame.php?game_id=9318",
+    "game_id": 9318,
+    "note": "Harrison Whitaker game 9.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 9
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9439,
+    "taped_date": "2025-10-20",
+    "air_date": "2025-11-20",
+    "contestants": [
+      "Harrison Whitaker",
+      "Blythe Roberson",
+      "Kara Brown"
+    ],
+    "href": "showgame.php?game_id=9317",
+    "game_id": 9317,
+    "note": "Harrison Whitaker game 8.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9438,
+    "taped_date": "2025-10-20",
+    "air_date": "2025-11-19",
+    "contestants": [
+      "Harrison Whitaker",
+      "Josh Chen",
+      "Matylda Urbaniak"
+    ],
+    "href": "showgame.php?game_id=9316",
+    "game_id": 9316,
+    "note": "Harrison Whitaker game 7.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9437,
+    "taped_date": "2025-10-20",
+    "air_date": "2025-11-18",
+    "contestants": [
+      "Harrison Whitaker",
+      "Lydia Boshart",
+      "Tony Antoniades"
+    ],
+    "href": "showgame.php?game_id=9315",
+    "game_id": 9315,
+    "note": "Harrison Whitaker game 6.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9436,
+    "taped_date": "2025-10-20",
+    "air_date": "2025-11-17",
+    "contestants": [
+      "Harrison Whitaker",
+      "Lawrence Suba",
+      "Rachel Bernstein"
+    ],
+    "href": "showgame.php?game_id=9314",
+    "game_id": 9314,
+    "note": "Harrison Whitaker game 5.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9435,
+    "taped_date": "2025-10-07",
+    "air_date": "2025-11-14",
+    "contestants": [
+      "Harrison Whitaker",
+      "Sarah Khan",
+      "Brent Steele"
+    ],
+    "href": "showgame.php?game_id=9313",
+    "game_id": 9313,
+    "note": "Harrison Whitaker game 4.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9434,
+    "taped_date": "2025-10-07",
+    "air_date": "2025-11-13",
+    "contestants": [
+      "Harrison Whitaker",
+      "David Lewis",
+      "Sheila Collins"
+    ],
+    "href": "showgame.php?game_id=9312",
+    "game_id": 9312,
+    "note": "Harrison Whitaker game 3.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9433,
+    "taped_date": "2025-10-07",
+    "air_date": "2025-11-12",
+    "contestants": [
+      "Harrison Whitaker",
+      "Greg Saunders",
+      "Lynette Perloff"
+    ],
+    "href": "showgame.php?game_id=9311",
+    "game_id": 9311,
+    "note": "Harrison Whitaker game 2.",
+    "returning_champion": {
+      "name": "Harrison Whitaker",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9432,
+    "taped_date": "2025-10-07",
+    "air_date": "2025-11-11",
+    "contestants": [
+      "Allegra Kuney",
+      "Harrison Whitaker",
+      "Jessica Marshall"
+    ],
+    "href": "showgame.php?game_id=9310",
+    "game_id": 9310,
+    "note": "Allegra Kuney game 5.\nHarrison Whitaker game 1.",
+    "returning_champion": {
+      "name": "Allegra Kuney",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9431,
+    "taped_date": "2025-10-07",
+    "air_date": "2025-11-10",
+    "contestants": [
+      "Allegra Kuney",
+      "Matt Eisenberg",
+      "Morgan Connolly"
+    ],
+    "href": "showgame.php?game_id=9308",
+    "game_id": 9308,
+    "note": "Allegra Kuney game 4.",
+    "returning_champion": {
+      "name": "Allegra Kuney",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9430,
+    "taped_date": "2025-10-06",
+    "air_date": "2025-11-07",
+    "contestants": [
+      "Allegra Kuney",
+      "Mason Hendrix",
+      "Larisa Mount"
+    ],
+    "href": "showgame.php?game_id=9307",
+    "game_id": 9307,
+    "note": "Allegra Kuney game 3.",
+    "returning_champion": {
+      "name": "Allegra Kuney",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9429,
+    "taped_date": "2025-10-06",
+    "air_date": "2025-11-06",
+    "contestants": [
+      "Allegra Kuney",
+      "Molly Murray",
+      "Alan Pyke"
+    ],
+    "href": "showgame.php?game_id=9306",
+    "game_id": 9306,
+    "note": "Allegra Kuney game 2.",
+    "returning_champion": {
+      "name": "Allegra Kuney",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9428,
+    "taped_date": "2025-10-06",
+    "air_date": "2025-11-05",
+    "contestants": [
+      "Joseph Evans",
+      "Sofia Meisburger",
+      "Allegra Kuney"
+    ],
+    "href": "showgame.php?game_id=9305",
+    "game_id": 9305,
+    "note": "Allegra Kuney game 1.",
+    "returning_champion": {
+      "name": "Allegra Kuney",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9427,
+    "taped_date": "2025-10-06",
+    "air_date": "2025-11-04",
+    "contestants": [
+      "Joyelle McSweeney",
+      "Joseph Evans",
+      "Aaron Himmel"
+    ],
+    "href": "showgame.php?game_id=9304",
+    "game_id": 9304,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9426,
+    "taped_date": "2025-10-06",
+    "air_date": "2025-11-03",
+    "contestants": [
+      "Christopher Tillman",
+      "W.A. Robison",
+      "Joyelle McSweeney"
+    ],
+    "href": "showgame.php?game_id=9303",
+    "game_id": 9303,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9425,
+    "taped_date": "2025-09-17",
+    "air_date": "2025-10-31",
+    "contestants": [
+      "Christopher Tillman",
+      "Siobhan Hickey",
+      "Robbie Ellis"
+    ],
+    "href": "showgame.php?game_id=9302",
+    "game_id": 9302,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9424,
+    "taped_date": "2025-09-17",
+    "air_date": "2025-10-30",
+    "contestants": [
+      "Aaron Levine",
+      "Elana Beame",
+      "Christopher Tillman"
+    ],
+    "href": "showgame.php?game_id=9301",
+    "game_id": 9301,
+    "note": "Aaron Levine game 4.",
+    "returning_champion": {
+      "name": "Aaron Levine",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9423,
+    "taped_date": "2025-09-17",
+    "air_date": "2025-10-29",
+    "contestants": [
+      "Aaron Levine",
+      "Eli Bondar",
+      "Katie Mantoan"
+    ],
+    "href": "showgame.php?game_id=9300",
+    "game_id": 9300,
+    "note": "Aaron Levine game 3.",
+    "returning_champion": {
+      "name": "Aaron Levine",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9422,
+    "taped_date": "2025-09-17",
+    "air_date": "2025-10-28",
+    "contestants": [
+      "Aaron Levine",
+      "Cynthia Appiah",
+      "Alan Turner"
+    ],
+    "href": "showgame.php?game_id=9299",
+    "game_id": 9299,
+    "note": "Aaron Levine game 2.",
+    "returning_champion": {
+      "name": "Aaron Levine",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9421,
+    "taped_date": "2025-09-17",
+    "air_date": "2025-10-27",
+    "contestants": [
+      "Shaan Mishra",
+      "Aaron Levine",
+      "Morgan Walker"
+    ],
+    "href": "showgame.php?game_id=9298",
+    "game_id": 9298,
+    "note": "Aaron Levine game 1.",
+    "returning_champion": {
+      "name": "Aaron Levine",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9420,
+    "taped_date": "2025-09-16",
+    "air_date": "2025-10-24",
+    "contestants": [
+      "Tom Devlin",
+      "Kristina Pohribnij",
+      "Shaan Mishra"
+    ],
+    "href": "showgame.php?game_id=9297",
+    "game_id": 9297,
+    "note": "Tom Devlin game 4.",
+    "returning_champion": {
+      "name": "Tom Devlin",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9419,
+    "taped_date": "2025-09-16",
+    "air_date": "2025-10-23",
+    "contestants": [
+      "Tom Devlin",
+      "Elijah Perseus Blumov",
+      "Jake Tomlin"
+    ],
+    "href": "showgame.php?game_id=9296",
+    "game_id": 9296,
+    "note": "Tom Devlin game 3.",
+    "returning_champion": {
+      "name": "Tom Devlin",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9418,
+    "taped_date": "2025-09-16",
+    "air_date": "2025-10-22",
+    "contestants": [
+      "Tom Devlin",
+      "Katy Lentz",
+      "Emmanuel Calivo"
+    ],
+    "href": "showgame.php?game_id=9295",
+    "game_id": 9295,
+    "note": "Tom Devlin game 2.",
+    "returning_champion": {
+      "name": "Tom Devlin",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9417,
+    "taped_date": "2025-09-16",
+    "air_date": "2025-10-21",
+    "contestants": [
+      "Dargan Ware",
+      "Elyse Erdman",
+      "Tom Devlin"
+    ],
+    "href": "showgame.php?game_id=9294",
+    "game_id": 9294,
+    "note": "Tom Devlin game 1.",
+    "returning_champion": {
+      "name": "Tom Devlin",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9416,
+    "taped_date": "2025-09-16",
+    "air_date": "2025-10-20",
+    "contestants": [
+      "Dargan Ware",
+      "Nick Petrilli",
+      "Amanda Tholke"
+    ],
+    "href": "showgame.php?game_id=9293",
+    "game_id": 9293,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9415,
+    "taped_date": "2025-09-15",
+    "air_date": "2025-10-17",
+    "contestants": [
+      "Cindy del Rosario",
+      "Sondra Venable",
+      "Dargan Ware"
+    ],
+    "href": "showgame.php?game_id=9292",
+    "game_id": 9292,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9414,
+    "taped_date": "2025-09-15",
+    "air_date": "2025-10-16",
+    "contestants": [
+      "Delaney O'Dea",
+      "Cindy del Rosario",
+      "Dave Keder"
+    ],
+    "href": "showgame.php?game_id=9291",
+    "game_id": 9291,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9413,
+    "taped_date": "2025-09-15",
+    "air_date": "2025-10-15",
+    "contestants": [
+      "Chris McGinn",
+      "Delaney O'Dea",
+      "Tafari Mbadiwe"
+    ],
+    "href": "showgame.php?game_id=9290",
+    "game_id": 9290,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9412,
+    "taped_date": "2025-09-15",
+    "air_date": "2025-10-14",
+    "contestants": [
+      "Allegra Hill",
+      "Evan Argyle",
+      "Chris McGinn"
+    ],
+    "href": "showgame.php?game_id=9289",
+    "game_id": 9289,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9411,
+    "taped_date": "2025-09-15",
+    "air_date": "2025-10-13",
+    "contestants": [
+      "Aimée Fluitt",
+      "Daniel Richman",
+      "Allegra Hill"
+    ],
+    "href": "showgame.php?game_id=9288",
+    "game_id": 9288,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9410,
+    "taped_date": "2025-09-09",
+    "air_date": "2025-10-10",
+    "contestants": [
+      "Spencer Janes",
+      "Dave Francois",
+      "Aimée Fluitt"
+    ],
+    "href": "showgame.php?game_id=9287",
+    "game_id": 9287,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9409,
+    "taped_date": "2025-09-09",
+    "air_date": "2025-10-09",
+    "contestants": [
+      "TJ Fisher",
+      "Spencer Janes",
+      "Grace Batiste"
+    ],
+    "href": "showgame.php?game_id=9286",
+    "game_id": 9286,
+    "note": "TJ Fisher game 6.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9408,
+    "taped_date": "2025-09-09",
+    "air_date": "2025-10-08",
+    "contestants": [
+      "TJ Fisher",
+      "Josh Ng",
+      "Chris Turner-Neal"
+    ],
+    "href": "showgame.php?game_id=9285",
+    "game_id": 9285,
+    "note": "TJ Fisher game 5.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9407,
+    "taped_date": "2025-09-09",
+    "air_date": "2025-10-07",
+    "contestants": [
+      "TJ Fisher",
+      "Slade Gilmer",
+      "Claudine Lewis"
+    ],
+    "href": "showgame.php?game_id=9284",
+    "game_id": 9284,
+    "note": "TJ Fisher game 4.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9406,
+    "taped_date": "2025-09-09",
+    "air_date": "2025-10-06",
+    "contestants": [
+      "TJ Fisher",
+      "Brian Dixon",
+      "Kate Kostelnik"
+    ],
+    "href": "showgame.php?game_id=9283",
+    "game_id": 9283,
+    "note": "TJ Fisher game 3.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9405,
+    "taped_date": "2025-09-08",
+    "air_date": "2025-10-03",
+    "contestants": [
+      "TJ Fisher",
+      "Roberto Carabeo",
+      "Ellie Baker"
+    ],
+    "href": "showgame.php?game_id=9282",
+    "game_id": 9282,
+    "note": "TJ Fisher game 2.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9404,
+    "taped_date": "2025-09-08",
+    "air_date": "2025-10-02",
+    "contestants": [
+      "Lisa Mueller",
+      "Alan Rosenberg",
+      "TJ Fisher"
+    ],
+    "href": "showgame.php?game_id=9281",
+    "game_id": 9281,
+    "note": "TJ Fisher game 1.",
+    "returning_champion": {
+      "name": "TJ Fisher",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9403,
+    "taped_date": "2025-09-08",
+    "air_date": "2025-10-01",
+    "contestants": [
+      "Curtis Bogetti",
+      "James Thajudeen",
+      "Lisa Mueller"
+    ],
+    "href": "showgame.php?game_id=9280",
+    "game_id": 9280,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9402,
+    "taped_date": "2025-09-08",
+    "air_date": "2025-09-30",
+    "contestants": [
+      "Zach Knecht",
+      "Hannah Gómez",
+      "Curtis Bogetti"
+    ],
+    "href": "showgame.php?game_id=9279",
+    "game_id": 9279,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9401,
+    "taped_date": "2025-09-08",
+    "air_date": "2025-09-29",
+    "contestants": [
+      "Prasad Patil",
+      "Zach Knecht",
+      "Rebecca Thompson"
+    ],
+    "href": "showgame.php?game_id=9278",
+    "game_id": 9278,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9400,
+    "taped_date": "2025-08-08",
+    "air_date": "2025-09-26",
+    "contestants": [
+      "Vickie Talvola",
+      "Yasmine Mitchell",
+      "Prasad Patil"
+    ],
+    "href": "showgame.php?game_id=9277",
+    "game_id": 9277,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9399,
+    "taped_date": "2025-08-08",
+    "air_date": "2025-09-25",
+    "contestants": [
+      "Steven Olson",
+      "Erik Nielsen",
+      "Vickie Talvola"
+    ],
+    "href": "showgame.php?game_id=9276",
+    "game_id": 9276,
+    "note": "Steven Olson game 5.",
+    "returning_champion": {
+      "name": "Steven Olson",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9398,
+    "taped_date": "2025-08-08",
+    "air_date": "2025-09-24",
+    "contestants": [
+      "Steven Olson",
+      "Natalie Shapero",
+      "Jaedon Jerue"
+    ],
+    "href": "showgame.php?game_id=9275",
+    "game_id": 9275,
+    "note": "Steven Olson game 4.",
+    "returning_champion": {
+      "name": "Steven Olson",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9397,
+    "taped_date": "2025-08-08",
+    "air_date": "2025-09-23",
+    "contestants": [
+      "Steven Olson",
+      "Hester Bass",
+      "Justin Ames"
+    ],
+    "href": "showgame.php?game_id=9274",
+    "game_id": 9274,
+    "note": "Steven Olson game 3.",
+    "returning_champion": {
+      "name": "Steven Olson",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9396,
+    "taped_date": "2025-08-08",
+    "air_date": "2025-09-22",
+    "contestants": [
+      "Steven Olson",
+      "David Shutoff",
+      "Jonathan Goldman"
+    ],
+    "href": "showgame.php?game_id=9273",
+    "game_id": 9273,
+    "note": "Steven Olson game 2.",
+    "returning_champion": {
+      "name": "Steven Olson",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9395,
+    "taped_date": "2025-08-07",
+    "air_date": "2025-09-19",
+    "contestants": [
+      "Paolo Pasco",
+      "Steven Olson",
+      "Hebah Uddin"
+    ],
+    "href": "showgame.php?game_id=9272",
+    "game_id": 9272,
+    "note": "Paolo Pasco game 8.\nSteven Olson game 1.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 8
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9394,
+    "taped_date": "2025-08-07",
+    "air_date": "2025-09-18",
+    "contestants": [
+      "Paolo Pasco",
+      "Greg Shipman",
+      "Kelly Anneken"
+    ],
+    "href": "showgame.php?game_id=9271",
+    "game_id": 9271,
+    "note": "Paolo Pasco game 7.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 7
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9393,
+    "taped_date": "2025-08-07",
+    "air_date": "2025-09-17",
+    "contestants": [
+      "Paolo Pasco",
+      "Max Miller",
+      "Laura Mixter"
+    ],
+    "href": "showgame.php?game_id=9270",
+    "game_id": 9270,
+    "note": "Paolo Pasco game 6.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 6
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9392,
+    "taped_date": "2025-08-07",
+    "air_date": "2025-09-16",
+    "contestants": [
+      "Paolo Pasco",
+      "Alex Rossell Hayes",
+      "Susan Harris"
+    ],
+    "href": "showgame.php?game_id=9269",
+    "game_id": 9269,
+    "note": "Paolo Pasco game 5.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 5
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9391,
+    "taped_date": "2025-08-07",
+    "air_date": "2025-09-15",
+    "contestants": [
+      "Paolo Pasco",
+      "Kelsi Tyler",
+      "Ryan Sharpe"
+    ],
+    "href": "showgame.php?game_id=9268",
+    "game_id": 9268,
+    "note": "Paolo Pasco game 4.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 4
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9390,
+    "taped_date": "2025-08-06",
+    "air_date": "2025-09-12",
+    "contestants": [
+      "Paolo Pasco",
+      "Saralyn McKinnon-Crowley",
+      "Jeff Freymann"
+    ],
+    "href": "showgame.php?game_id=9267",
+    "game_id": 9267,
+    "note": "Paolo Pasco game 3.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 3
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9389,
+    "taped_date": "2025-08-06",
+    "air_date": "2025-09-11",
+    "contestants": [
+      "Paolo Pasco",
+      "Jill Frechette",
+      "Andy Miller"
+    ],
+    "href": "showgame.php?game_id=9266",
+    "game_id": 9266,
+    "note": "Paolo Pasco game 2.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 2
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9388,
+    "taped_date": "2025-08-06",
+    "air_date": "2025-09-10",
+    "contestants": [
+      "Ian Morrison",
+      "Paolo Pasco",
+      "Leslie Oakerson"
+    ],
+    "href": "showgame.php?game_id=9265",
+    "game_id": 9265,
+    "note": "Paolo Pasco game 1.",
+    "returning_champion": {
+      "name": "Paolo Pasco",
+      "game_number": 1
+    },
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9387,
+    "taped_date": "2025-08-06",
+    "air_date": "2025-09-09",
+    "contestants": [
+      "Jonathan Hugendubler",
+      "Stacy Shelly",
+      "Ian Morrison"
+    ],
+    "href": "showgame.php?game_id=9264",
+    "game_id": 9264,
+    "note": null,
+    "returning_champion": null,
+    "tournament_context": null
+  },
+  {
+    "episode_number": 9386,
+    "taped_date": "2025-08-06",
+    "air_date": "2025-09-08",
+    "contestants": [
+      "Jonathan Hugendubler",
+      "Caroline Paul",
+      "Josh Jackson"
+    ],
+    "href": "showgame.php?game_id=9263",
+    "game_id": 9263,
+    "note": "First game of Season 42.\nNew opening graphics.",
+    "returning_champion": null,
+    "tournament_context": null
+  }
+]

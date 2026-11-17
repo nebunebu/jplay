@@ -1,0 +1,352 @@
+[
+  {
+    "title": "Season 42",
+    "start_date": "2025-09-08",
+    "end_date": "2026-07-24",
+    "games_archived": 215,
+    "href": "showseason.php?season=42"
+  },
+  {
+    "title": "Season 41",
+    "start_date": "2024-09-09",
+    "end_date": "2025-07-25",
+    "games_archived": 230,
+    "href": "showseason.php?season=41"
+  },
+  {
+    "title": "Audio-only games",
+    "start_date": "2024-01-12",
+    "end_date": "2024-02-02",
+    "games_archived": 3,
+    "href": "showseason.php?season=cwcpi"
+  },
+  {
+    "title": "Season 40",
+    "start_date": "2023-09-11",
+    "end_date": "2024-07-26",
+    "games_archived": 230,
+    "href": "showseason.php?season=40"
+  },
+  {
+    "title": "Jeopardy! Masters",
+    "start_date": "2023-05-08",
+    "end_date": "2023-05-24",
+    "games_archived": 56,
+    "href": "showseason.php?season=jm"
+  },
+  {
+    "title": "Primetime Celebrity Jeopardy!",
+    "start_date": "2022-09-25",
+    "end_date": "2025-04-23",
+    "games_archived": 49,
+    "href": "showseason.php?season=pcj"
+  },
+  {
+    "title": "Season 39",
+    "start_date": "2022-09-12",
+    "end_date": "2023-07-28",
+    "games_archived": 230,
+    "href": "showseason.php?season=39"
+  },
+  {
+    "title": "Jeopardy! National College Championship",
+    "start_date": "2022-02-08",
+    "end_date": "2022-02-22",
+    "games_archived": 18,
+    "href": "showseason.php?season=ncc"
+  },
+  {
+    "title": "Season 38",
+    "start_date": "2021-09-13",
+    "end_date": "2022-07-29",
+    "games_archived": 230,
+    "href": "showseason.php?season=38"
+  },
+  {
+    "title": "Season 37",
+    "start_date": "2020-09-14",
+    "end_date": "2021-08-13",
+    "games_archived": 230,
+    "href": "showseason.php?season=37"
+  },
+  {
+    "title": "Jeopardy!: The Greatest of All Time",
+    "start_date": "2020-01-07",
+    "end_date": "2020-01-14",
+    "games_archived": 8,
+    "href": "showseason.php?season=goattournament"
+  },
+  {
+    "title": "Season 36",
+    "start_date": "2019-09-09",
+    "end_date": "2020-06-12",
+    "games_archived": 190,
+    "href": "showseason.php?season=36"
+  },
+  {
+    "title": "Season 35",
+    "start_date": "2018-09-10",
+    "end_date": "2019-07-26",
+    "games_archived": 230,
+    "href": "showseason.php?season=35"
+  },
+  {
+    "title": "Season 34",
+    "start_date": "2017-09-11",
+    "end_date": "2018-07-27",
+    "games_archived": 230,
+    "href": "showseason.php?season=34"
+  },
+  {
+    "title": "Season 33",
+    "start_date": "2016-09-12",
+    "end_date": "2017-07-28",
+    "games_archived": 230,
+    "href": "showseason.php?season=33"
+  },
+  {
+    "title": "Season 32",
+    "start_date": "2015-09-14",
+    "end_date": "2016-07-29",
+    "games_archived": 230,
+    "href": "showseason.php?season=32"
+  },
+  {
+    "title": "Season 31",
+    "start_date": "2014-09-15",
+    "end_date": "2015-07-31",
+    "games_archived": 230,
+    "href": "showseason.php?season=31"
+  },
+  {
+    "title": "Season 30",
+    "start_date": "2013-09-16",
+    "end_date": "2014-08-01",
+    "games_archived": 230,
+    "href": "showseason.php?season=30"
+  },
+  {
+    "title": "Season 29",
+    "start_date": "2012-09-17",
+    "end_date": "2013-08-02",
+    "games_archived": 230,
+    "href": "showseason.php?season=29"
+  },
+  {
+    "title": "Season 28",
+    "start_date": "2011-09-19",
+    "end_date": "2012-08-03",
+    "games_archived": 230,
+    "href": "showseason.php?season=28"
+  },
+  {
+    "title": "Season 27",
+    "start_date": "2010-09-13",
+    "end_date": "2011-07-29",
+    "games_archived": 230,
+    "href": "showseason.php?season=27"
+  },
+  {
+    "title": "Season 26",
+    "start_date": "2009-09-14",
+    "end_date": "2010-07-30",
+    "games_archived": 230,
+    "href": "showseason.php?season=26"
+  },
+  {
+    "title": "Season 25",
+    "start_date": "2008-09-08",
+    "end_date": "2009-07-24",
+    "games_archived": 230,
+    "href": "showseason.php?season=25"
+  },
+  {
+    "title": "Season 24",
+    "start_date": "2007-09-10",
+    "end_date": "2008-07-25",
+    "games_archived": 230,
+    "href": "showseason.php?season=24"
+  },
+  {
+    "title": "Season 23",
+    "start_date": "2006-09-11",
+    "end_date": "2007-07-27",
+    "games_archived": 230,
+    "href": "showseason.php?season=23"
+  },
+  {
+    "title": "Season 22",
+    "start_date": "2005-09-12",
+    "end_date": "2006-07-28",
+    "games_archived": 230,
+    "href": "showseason.php?season=22"
+  },
+  {
+    "title": "Season 21",
+    "start_date": "2004-09-06",
+    "end_date": "2005-07-22",
+    "games_archived": 230,
+    "href": "showseason.php?season=21"
+  },
+  {
+    "title": "Season 20",
+    "start_date": "2003-09-08",
+    "end_date": "2004-07-23",
+    "games_archived": 230,
+    "href": "showseason.php?season=20"
+  },
+  {
+    "title": "Season 19",
+    "start_date": "2002-09-02",
+    "end_date": "2003-07-18",
+    "games_archived": 230,
+    "href": "showseason.php?season=19"
+  },
+  {
+    "title": "Season 18",
+    "start_date": "2001-09-03",
+    "end_date": "2002-07-19",
+    "games_archived": 229,
+    "href": "showseason.php?season=18"
+  },
+  {
+    "title": "Season 17",
+    "start_date": "2000-09-04",
+    "end_date": "2001-07-20",
+    "games_archived": 230,
+    "href": "showseason.php?season=17"
+  },
+  {
+    "title": "Season 16",
+    "start_date": "1999-09-06",
+    "end_date": "2000-07-21",
+    "games_archived": 230,
+    "href": "showseason.php?season=16"
+  },
+  {
+    "title": "Season 15",
+    "start_date": "1998-09-07",
+    "end_date": "1999-07-23",
+    "games_archived": 230,
+    "href": "showseason.php?season=15"
+  },
+  {
+    "title": "Battle of the Bay Area Brains",
+    "start_date": "1998-05-03",
+    "end_date": "1998-05-03",
+    "games_archived": 1,
+    "href": "showseason.php?season=bbab"
+  },
+  {
+    "title": "Season 14",
+    "start_date": "1997-09-01",
+    "end_date": "1998-07-17",
+    "games_archived": 230,
+    "href": "showseason.php?season=14"
+  },
+  {
+    "title": "Season 13",
+    "start_date": "1996-09-02",
+    "end_date": "1997-07-18",
+    "games_archived": 218,
+    "href": "showseason.php?season=13"
+  },
+  {
+    "title": "Season 12",
+    "start_date": "1995-09-04",
+    "end_date": "1996-07-19",
+    "games_archived": 229,
+    "href": "showseason.php?season=12"
+  },
+  {
+    "title": "Season 11",
+    "start_date": "1994-09-05",
+    "end_date": "1995-07-21",
+    "games_archived": 214,
+    "href": "showseason.php?season=11"
+  },
+  {
+    "title": "Season 10",
+    "start_date": "1993-09-06",
+    "end_date": "1994-07-22",
+    "games_archived": 230,
+    "href": "showseason.php?season=10"
+  },
+  {
+    "title": "Season 9",
+    "start_date": "1992-09-07",
+    "end_date": "1993-07-23",
+    "games_archived": 229,
+    "href": "showseason.php?season=9"
+  },
+  {
+    "title": "Season 8",
+    "start_date": "1991-09-02",
+    "end_date": "1992-07-17",
+    "games_archived": 195,
+    "href": "showseason.php?season=8"
+  },
+  {
+    "title": "Season 7",
+    "start_date": "1990-09-03",
+    "end_date": "1991-07-19",
+    "games_archived": 212,
+    "href": "showseason.php?season=7"
+  },
+  {
+    "title": "Super Jeopardy!",
+    "start_date": "1990-06-16",
+    "end_date": "1990-09-08",
+    "games_archived": 13,
+    "href": "showseason.php?season=superjeopardy"
+  },
+  {
+    "title": "Season 6",
+    "start_date": "1989-09-04",
+    "end_date": "1990-07-20",
+    "games_archived": 202,
+    "href": "showseason.php?season=6"
+  },
+  {
+    "title": "Season 5",
+    "start_date": "1988-09-05",
+    "end_date": "1989-07-21",
+    "games_archived": 216,
+    "href": "showseason.php?season=5"
+  },
+  {
+    "title": "Season 4",
+    "start_date": "1987-09-07",
+    "end_date": "1988-07-22",
+    "games_archived": 222,
+    "href": "showseason.php?season=4"
+  },
+  {
+    "title": "Season 3",
+    "start_date": "1986-09-08",
+    "end_date": "1987-07-24",
+    "games_archived": 215,
+    "href": "showseason.php?season=3"
+  },
+  {
+    "title": "Season 2",
+    "start_date": "1985-09-09",
+    "end_date": "1986-06-06",
+    "games_archived": 179,
+    "href": "showseason.php?season=2"
+  },
+  {
+    "title": "Season 1",
+    "start_date": "1984-09-10",
+    "end_date": "1985-06-07",
+    "games_archived": 164,
+    "href": "showseason.php?season=1"
+  },
+  {
+    "title": "Trebek pilots",
+    "start_date": "1983-09-18 and 1984?",
+    "end_date": null,
+    "games_archived": 2,
+    "href": "showseason.php?season=trebekpilots"
+  }
+]
